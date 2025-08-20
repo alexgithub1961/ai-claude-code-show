@@ -101,6 +101,62 @@ class FullVanEckETFDownloader:
         except Exception:
             return False, ""
     
+    async def search_pdf_on_website(self, ticker: str, session: aiohttp.ClientSession) -> Optional[str]:
+        """Search the VanEck website for PDF links when direct URLs fail."""
+        console.print(f"[yellow]🔍 Searching website for {ticker} PDF...[/yellow]")
+        
+        search_urls = [
+            f"{self.base_url}/us/en/investments/?search={ticker}",
+            f"{self.base_url}/us/en/vaneck-etfs/{ticker.lower()}",
+            f"{self.base_url}/us/en/investments/{ticker.lower()}-etf",
+        ]
+        
+        for search_url in search_urls:
+            try:
+                async with session.get(search_url, headers=self.headers, timeout=aiohttp.ClientTimeout(total=15)) as response:
+                    if response.status == 200:
+                        html = await response.text()
+                        soup = BeautifulSoup(html, 'lxml')
+                        
+                        # Look for PDF links in various patterns
+                        pdf_patterns = [
+                            f"{ticker.lower()}.*fact.*sheet.*\\.pdf",
+                            f"fact.*sheet.*{ticker.lower()}.*\\.pdf",
+                            f"{ticker.lower()}.*factsheet.*\\.pdf",
+                            f".*/{ticker.lower()}/.*\\.pdf",
+                        ]
+                        
+                        for pattern in pdf_patterns:
+                            # Search for links matching the pattern
+                            pdf_links = soup.find_all('a', href=re.compile(pattern, re.I))
+                            
+                            for link in pdf_links:
+                                pdf_url = link.get('href', '')
+                                
+                                # Make URL absolute if relative
+                                if pdf_url.startswith('/'):
+                                    pdf_url = f"{self.base_url}{pdf_url}"
+                                elif not pdf_url.startswith('http'):
+                                    pdf_url = f"{self.base_url}/{pdf_url}"
+                                
+                                console.print(f"[cyan]Found potential PDF: {pdf_url}[/cyan]")
+                                return pdf_url
+                        
+                        # Also look for download buttons or document links
+                        download_links = soup.find_all('a', class_=re.compile('download|document|fact-sheet', re.I))
+                        for link in download_links:
+                            href = link.get('href', '')
+                            if ticker.lower() in href.lower() and href.endswith('.pdf'):
+                                pdf_url = href if href.startswith('http') else f"{self.base_url}{href}"
+                                console.print(f"[cyan]Found download link: {pdf_url}[/cyan]")
+                                return pdf_url
+                                
+            except Exception as e:
+                console.print(f"[red]Search error for {search_url}: {str(e)[:50]}[/red]")
+                continue
+        
+        return None
+    
     async def fetch_all_etfs(self) -> List[Dict]:
         """Fetch complete list of VanEck ETFs."""
         console.print(Panel.fit("[bold blue]Fetching VanEck ETF List[/bold blue]"))
@@ -218,6 +274,40 @@ class FullVanEckETFDownloader:
             except Exception as e:
                 result['errors'].append(str(e)[:50])
                 continue
+        
+        # If direct URLs failed, try searching the website
+        if not result['pdf_downloaded']:
+            found_pdf_url = await self.search_pdf_on_website(ticker, session)
+            
+            if found_pdf_url:
+                try:
+                    headers = self.headers.copy()
+                    headers['Accept'] = 'application/pdf,*/*'
+                    
+                    async with session.get(found_pdf_url, headers=headers, allow_redirects=True, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                        if response.status == 200:
+                            content = await response.read()
+                            
+                            # Write file first
+                            with open(pdf_file, 'wb') as f:
+                                f.write(content)
+                            
+                            # Verify it's actually a PDF
+                            is_pdf, file_hash = self.verify_pdf_content(pdf_file)
+                            
+                            if is_pdf:
+                                result['pdf_downloaded'] = True
+                                result['pdf_verified'] = True
+                                result['pdf_size'] = len(content)
+                                result['pdf_hash'] = file_hash
+                                self.download_stats['pdf_verified'] += 1
+                                self.download_stats['bytes_downloaded'] += len(content)
+                                console.print(f"[green]✓[/green] {ticker}: PDF found via search ({len(content):,} bytes)")
+                            else:
+                                pdf_file.unlink()
+                                result['errors'].append(f"Search found non-PDF: {found_pdf_url}")
+                except Exception as e:
+                    result['errors'].append(f"Search download error: {str(e)[:50]}")
         
         # Holdings download - first try to get the page and extract API URL
         holdings_csv_file = etf_dir / f"{ticker}_holdings.csv"
