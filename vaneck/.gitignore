@@ -48,6 +48,16 @@ logs/
 *.log
 *.log.*
 
+# Downloaded ETF data - NEVER commit these
+download/
+download_*/
+download_all/
+download_test/
+download_old_to_remove/
+download_test_old_to_remove/
+debug_downloads/
+test_downloads/
+
 # Configuration files with sensitive data
 config.yaml
 .env

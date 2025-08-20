@@ -1,3 +1,0 @@
-VanEck ETF Downloader - Sample Download
-This file confirms the container is working correctly.
-Download directory: /app/download
