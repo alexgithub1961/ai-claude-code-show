@@ -31,10 +31,28 @@ class VanEckETFDownloader:
         self.base_url = "https://www.vaneck.com"
         self.api_url = "https://www.vaneck.com/api/fundfinder"
         self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "Accept": "application/json, text/plain, */*",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
             "Accept-Language": "en-GB,en;q=0.9",
-            "Referer": "https://www.vaneck.com/us/en/etf-mutual-fund-finder/"
+            "Accept-Encoding": "gzip, deflate, br",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+            "Sec-Ch-Ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            "Sec-Ch-Ua-Mobile": "?0",
+            "Sec-Ch-Ua-Platform": '"Windows"',
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+        }
+        
+        # PDF-specific headers
+        self.pdf_headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "application/pdf,application/octet-stream,*/*",
+            "Accept-Language": "en-GB,en;q=0.9",
+            "Cache-Control": "no-cache",
         }
         
     async def fetch_etf_list(self) -> List[Dict]:
@@ -130,39 +148,109 @@ class VanEckETFDownloader:
         with open(metadata_file, 'w') as f:
             json.dump(etf, f, indent=2)
             
-        # Download fact sheet if URL is available
+        # Download fact sheet with improved URL patterns and retry logic
+        fact_sheet_success = False
         if etf.get('url'):
-            fact_sheet_url = etf['url'].replace('/etf/', '/assets/resources/fact-sheets/')
-            fact_sheet_url += f"-fact-sheet.pdf"
-            
-            pdf_file = etf_dir / f"{ticker}_fact_sheet.pdf"
-            try:
-                async with session.get(fact_sheet_url, headers=self.headers) as response:
-                    if response.status == 200:
-                        content = await response.read()
-                        with open(pdf_file, 'wb') as f:
-                            f.write(content)
-                        success = True
-                        console.print(f"[green]✓[/green] Downloaded fact sheet for {ticker}")
-            except Exception as e:
-                console.print(f"[yellow]⚠[/yellow] Could not download fact sheet for {ticker}: {e}")
+            fact_sheet_success = await self._download_fact_sheet_with_retry(etf, session, etf_dir, ticker)
         
-        # Download holdings data (construct URL pattern)
-        holdings_url = f"{self.base_url}/us/en/assets/resources/holdings/{ticker.lower()}-holdings.csv"
+        # Download holdings data with multiple URL patterns
+        holdings_patterns = [
+            f"{self.base_url}/us/en/assets/resources/holdings/{ticker.lower()}-holdings.csv",
+            f"{self.base_url}/assets/resources/holdings/{ticker.lower()}-holdings.csv",
+            f"{self.base_url}/holdings/{ticker.lower()}.csv",
+            f"{self.base_url}/us/en/investments/{ticker.lower()}-holdings.csv",
+        ]
+        
         holdings_file = etf_dir / f"{ticker}_holdings.csv"
+        holdings_success = False
         
-        try:
-            async with session.get(holdings_url, headers=self.headers) as response:
-                if response.status == 200:
-                    content = await response.text()
-                    with open(holdings_file, 'w') as f:
-                        f.write(content)
-                    success = True
-                    console.print(f"[green]✓[/green] Downloaded holdings for {ticker}")
-        except Exception as e:
-            console.print(f"[yellow]⚠[/yellow] Could not download holdings for {ticker}: {e}")
+        for holdings_url in holdings_patterns:
+            try:
+                async with session.get(holdings_url, headers=self.headers, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                    if response.status == 200:
+                        content_type = response.headers.get('content-type', '').lower()
+                        
+                        # Check if it's CSV data
+                        if ('csv' in content_type or 'text/' in content_type):
+                            content = await response.text()
+                            with open(holdings_file, 'w', encoding='utf-8') as f:
+                                f.write(content)
+                            holdings_success = True
+                            console.print(f"[green]✓[/green] Downloaded holdings for {ticker}")
+                            break
+            except Exception as e:
+                continue
+        
+        if not holdings_success:
+            console.print(f"[yellow]ⓘ[/yellow] No holdings data found for {ticker}")
+        
+        success = fact_sheet_success or holdings_success
             
         return success
+    
+    async def _download_fact_sheet_with_retry(self, etf: Dict, session: aiohttp.ClientSession, etf_dir: Path, ticker: str) -> bool:
+        """Download fact sheet PDF with multiple URL patterns and retry logic."""
+        import re
+        
+        product_url = etf.get('url', '')
+        
+        # Generate fact sheet URL patterns based on discovered working patterns
+        fact_sheet_patterns = []
+        
+        # Pattern 1: Direct fact sheet URL (discovered working pattern)
+        if product_url and 'investments/' in product_url:
+            # Extract the ETF name part from product URL
+            # e.g., "/investments/gold-miners-etf-gdx/" -> "gold-miners-etf-gdx"
+            match = re.search(r'/investments/([^/]+)', product_url)
+            if match:
+                etf_path = match.group(1)
+                if etf_path.endswith('/'):
+                    etf_path = etf_path[:-1]
+                fact_sheet_url = f"{self.base_url}/us/en/investments/{etf_path}-fact-sheet.pdf"
+                fact_sheet_patterns.append(("direct_product_path", fact_sheet_url))
+        
+        # Pattern 2: Common naming patterns
+        ticker_lower = ticker.lower()
+        common_patterns = [
+            ("simple_ticker", f"{self.base_url}/us/en/investments/{ticker_lower}-etf-fact-sheet.pdf"),
+            ("ticker_with_etf", f"{self.base_url}/us/en/investments/{ticker_lower}-fact-sheet.pdf"),
+            ("assets_resources", f"{self.base_url}/us/en/assets/resources/fact-sheets/{ticker_lower}-fact-sheet.pdf"),
+            ("direct_assets", f"{self.base_url}/assets/resources/fact-sheets/{ticker_lower}-fact-sheet.pdf"),
+        ]
+        
+        fact_sheet_patterns.extend(common_patterns)
+        
+        # Try each URL pattern
+        for pattern_name, url in fact_sheet_patterns:
+            try:
+                # Set proper headers and referer
+                headers = self.pdf_headers.copy()
+                if product_url:
+                    headers['Referer'] = product_url
+                
+                async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                    if response.status == 200:
+                        content_type = response.headers.get('content-type', '').lower()
+                        content = await response.read()
+                        
+                        # Check if it's actually a PDF
+                        if ('pdf' in content_type or content.startswith(b'%PDF')):
+                            pdf_file = etf_dir / f"{ticker}_fact_sheet.pdf"
+                            with open(pdf_file, 'wb') as f:
+                                f.write(content)
+                            console.print(f"[green]✓[/green] Downloaded fact sheet for {ticker} ({len(content)} bytes)")
+                            return True
+                        else:
+                            console.print(f"[yellow]⚠[/yellow] URL returned non-PDF content for {ticker}: {content_type}")
+                    else:
+                        console.print(f"[yellow]⚠[/yellow] HTTP {response.status} for {ticker} fact sheet: {url}")
+                        
+            except Exception as e:
+                console.print(f"[yellow]⚠[/yellow] Error downloading fact sheet for {ticker} from {url}: {e}")
+                continue
+        
+        console.print(f"[red]✗[/red] Could not download fact sheet for {ticker} after trying {len(fact_sheet_patterns)} URL patterns")
+        return False
     
     async def download_all(self, max_etfs: int = 5, dry_run: bool = False):
         """Download data for multiple ETFs."""

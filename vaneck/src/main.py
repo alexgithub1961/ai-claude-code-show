@@ -60,10 +60,11 @@ def main():
     
     # Import the actual downloader
     try:
-        from vaneck_etf_downloader import main as downloader_main
+        # Try the fixed downloader first
+        from fixed_vaneck_downloader import main as downloader_main
         import asyncio
         
-        print("Starting VanEck ETF download process...")
+        print("Starting VanEck ETF download process (Fixed Version)...")
         print()
         
         # Run the async downloader
