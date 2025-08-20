@@ -1,0 +1,15 @@
+# VanEck ETF Data Downloader - Production Dependencies
+# Minimal dependencies needed for production deployment
+
+# Core dependencies
+httpx==0.25.2
+pydantic==2.5.0
+pyyaml==6.0.1
+aiofiles==23.2.1
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Basic data processing
+python-dateutil==2.8.2

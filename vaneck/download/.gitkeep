@@ -1,0 +1,2 @@
+# This file ensures the download directory is tracked in git
+# The directory will be used for ETF data files downloaded by the application

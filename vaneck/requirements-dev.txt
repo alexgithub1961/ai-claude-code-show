@@ -1,0 +1,67 @@
+# Testing dependencies for VanEck ETF Downloader
+
+# Core testing framework
+pytest>=7.4.0
+pytest-asyncio>=0.23.0      # Async test support
+pytest-mock>=3.12.0         # Mocking utilities
+pytest-cov>=4.0.0           # Coverage reporting
+pytest-xdist>=3.3.1         # Parallel test execution
+pytest-timeout>=2.1.0       # Test timeout handling
+
+# HTTP mocking and testing
+responses>=0.24.0            # Mock HTTP requests
+httpx-mock>=0.10.0          # Mock async HTTP requests
+aioresponses>=0.7.4         # Mock aiohttp requests
+
+# Test data generation
+factory-boy>=3.3.0          # Test data factories
+faker>=20.1.0               # Generate fake data
+
+# Code quality and linting
+black>=23.11.0              # Code formatting
+isort>=5.12.0               # Import sorting
+flake8>=6.1.0               # Linting
+mypy>=1.7.0                 # Type checking
+bandit>=1.7.5               # Security linting
+
+# Coverage and reporting
+coverage[toml]>=7.3.0       # Coverage measurement
+pytest-html>=4.1.1          # HTML test reports
+pytest-json-report>=1.5.0   # JSON test reports
+
+# Performance and profiling
+pytest-benchmark>=4.0.0     # Performance benchmarking
+memory-profiler>=0.61.0     # Memory usage profiling
+
+# Selenium testing
+selenium>=4.15.0            # Web browser automation
+webdriver-manager>=4.0.1    # Automatic WebDriver management
+
+# Database testing (if needed)
+pytest-postgresql>=5.0.0    # PostgreSQL testing utilities
+pytest-redis>=3.0.0         # Redis testing utilities
+
+# Environment and configuration
+python-dotenv>=1.0.0        # Environment file loading
+pydantic[dotenv]>=2.5.0     # Configuration validation
+
+# Utilities
+freezegun>=1.2.2            # Time freezing for tests
+pytest-socket>=0.6.0        # Network access control
+pytest-env>=1.1.3           # Environment variable management
+
+# Docker integration testing
+testcontainers>=3.7.1       # Docker containers for testing
+
+# Load testing (for performance tests)
+locust>=2.17.0              # Load testing framework
+
+# Documentation testing
+pytest-doctest>=0.0.1       # Docstring testing
+
+# Test fixtures and utilities
+pytest-fixtures>=0.1.0      # Additional test fixtures
+pytest-datadir>=1.4.1       # Test data directory management
+
+# Monitoring and observability
+pytest-monitor>=1.6.6       # Test execution monitoring

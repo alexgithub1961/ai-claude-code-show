@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  etf-downloader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vaneck-etf-downloader:latest
+    container_name: etf-downloader
+    
+    # Volume mapping for data persistence
+    volumes:
+      - ./download:/app/download:rw
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw  # For GUI applications if needed
+    
+    # Environment variables
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+      - DISPLAY=${DISPLAY:-:0}
+      - TZ=UTC
+      # Chrome/Chromium options for headless operation
+      - CHROME_OPTIONS=--headless --no-sandbox --disable-dev-shm-usage --disable-gpu
+      
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
+    
+    # Restart policy
+    restart: unless-stopped
+    
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+    
+    # User mapping to avoid permission issues
+    user: "1000:1000"
+    
+    # Network mode
+    network_mode: bridge
+    
+    # Logging configuration
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  default:
+    driver: bridge

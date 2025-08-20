@@ -1,0 +1,61 @@
+# VanEck ETF Data Downloader - Development Dependencies
+# This file contains all dependencies needed for development and testing
+
+# Core dependencies
+httpx==0.25.2              # Modern async HTTP client
+pydantic==2.5.0            # Data validation and parsing
+pyyaml==6.0.1              # YAML configuration parsing
+pandas==2.1.4              # Data manipulation and analysis
+numpy==1.25.2              # Numerical computing
+pyarrow==14.0.1            # Parquet file support
+
+# Async support
+asyncio-mqtt==0.13.0       # Async MQTT client (optional)
+aiofiles==23.2.1           # Async file operations
+
+# Data processing
+python-dateutil==2.8.2    # Extended date parsing
+pytz==2023.3               # Timezone support
+lxml==4.9.3                # XML parsing (for some data sources)
+beautifulsoup4==4.12.2     # HTML parsing
+
+# Storage and compression
+compression==1.0.0         # Additional compression algorithms
+sqlalchemy==2.0.23         # SQL database support (optional)
+
+# Logging and monitoring
+structlog==23.2.0          # Structured logging
+prometheus-client==0.19.0  # Metrics collection (optional)
+
+# Development dependencies
+pytest==7.4.3             # Testing framework
+pytest-asyncio==0.21.1    # Async testing support
+pytest-cov==4.1.0         # Test coverage
+pytest-mock==3.12.0       # Mock objects for testing
+httpx-mock==0.7.0         # HTTP request mocking
+
+# Code quality
+black==23.11.0             # Code formatter
+isort==5.12.0              # Import sorter
+flake8==6.1.0              # Code linter
+mypy==1.7.1                # Static type checker
+bandit==1.7.5              # Security linter
+safety==2.3.5              # Security vulnerability scanner
+
+# Documentation
+sphinx==7.2.6             # Documentation generator
+sphinx-rtd-theme==1.3.0   # ReadTheDocs theme
+myst-parser==2.0.0        # Markdown parser for Sphinx
+
+# Utilities
+python-dotenv==1.0.0      # Environment variable loading
+click==8.1.7               # Command line interface
+tqdm==4.66.1               # Progress bars
+colorama==0.4.6            # Colored terminal output
+tabulate==0.9.0            # Pretty table printing
+
+# Optional dependencies for extended functionality
+redis==5.0.1               # Redis caching backend
+psycopg2-binary==2.9.9     # PostgreSQL adapter
+boto3==1.34.0              # AWS SDK (for S3 storage)
+azure-storage-blob==12.19.0  # Azure Blob storage

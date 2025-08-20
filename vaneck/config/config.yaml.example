@@ -1,0 +1,205 @@
+# VanEck ETF Data Downloader Configuration
+# This is an example configuration file - copy to config.yaml and customise
+
+# ETF symbols to download
+etfs:
+  symbols:
+    - "VTI"  # Vanguard Total Stock Market ETF
+    - "VOO"  # Vanguard S&P 500 ETF
+    - "QQQ"  # Invesco QQQ Trust
+    - "SPY"  # SPDR S&P 500 ETF Trust
+    - "IWM"  # iShares Russell 2000 ETF
+
+# Data sources configuration
+data_sources:
+  # Primary data source
+  - name: "alpha_vantage"
+    type: "alpha_vantage"
+    api_key: "${ALPHA_VANTAGE_API_KEY}"
+    base_url: "https://www.alphavantage.co/query"
+    rate_limit: 5  # calls per minute for free tier
+    timeout: 30
+    retry_count: 3
+    retry_delay: 2
+    
+  # Secondary data source
+  - name: "iex_cloud"
+    type: "iex_cloud"
+    api_key: "${IEX_CLOUD_API_KEY}"
+    base_url: "https://cloud.iexapis.com/stable"
+    rate_limit: 100  # calls per second for paid tier
+    timeout: 30
+    retry_count: 3
+    retry_delay: 1
+    
+  # Fallback data source
+  - name: "yahoo_finance"
+    type: "yahoo_finance"
+    base_url: "https://query1.finance.yahoo.com"
+    rate_limit: 60  # conservative estimate
+    timeout: 30
+    retry_count: 2
+    retry_delay: 3
+
+# Network configuration
+network:
+  timeout: 30
+  max_connections: 20
+  max_keepalive_connections: 5
+  keepalive_expiry: 300
+
+# Rate limiting
+rate_limiting:
+  calls_per_minute: 60
+  burst_allowance: 10
+  backoff_factor: 2
+
+# Caching configuration
+cache:
+  enabled: true
+  ttl: 3600  # seconds
+  max_size: 1000  # number of cached responses
+  storage_type: "memory"  # memory, redis, file
+
+# Data processing configuration
+processing:
+  # Validation settings
+  validation:
+    strict_mode: true
+    required_fields:
+      - "symbol"
+      - "date"
+      - "open_price"
+      - "high_price"
+      - "low_price"
+      - "close_price"
+      - "volume"
+    allow_missing_fields:
+      - "dividend_amount"
+      - "split_coefficient"
+    price_range:
+      min: 0.01
+      max: 10000.00
+    volume_range:
+      min: 0
+      max: 1000000000
+      
+  # Normalisation settings
+  normalisation:
+    date_format: "ISO8601"  # ISO8601, US, EU
+    decimal_places: 4
+    currency_code: "USD"
+    timezone: "UTC"
+    
+  # Data enrichment settings
+  enrichment:
+    enabled: true
+    calculate_indicators: true
+    indicators:
+      - name: "sma_20"
+        type: "simple_moving_average"
+        period: 20
+      - name: "ema_12"
+        type: "exponential_moving_average"
+        period: 12
+      - name: "rsi_14"
+        type: "relative_strength_index"
+        period: 14
+    calculate_ratios: true
+    ratios:
+      - "price_to_volume"
+      - "daily_return"
+      - "volatility"
+
+# Output configuration
+output:
+  format: "csv"  # csv, json, parquet
+  compression: "gzip"  # none, gzip, bz2, xz
+  directory: "./data"
+  auto_save: true
+  file_naming: "etf_data_{symbols}_{timestamp}"
+  directory_structure: "flat"  # flat, dated, symbol_grouped
+  
+  # Format-specific options
+  csv:
+    delimiter: ","
+    quote_char: '"'
+    include_header: true
+    date_format: "%Y-%m-%d"
+    
+  json:
+    indent: 2
+    ensure_ascii: false
+    include_metadata: true
+    
+  parquet:
+    engine: "pyarrow"
+    compression_algorithm: "snappy"
+    row_group_size: 50000
+
+# Concurrency settings
+concurrency:
+  max_concurrent_downloads: 5
+  max_concurrent_processing: 3
+  semaphore_timeout: 300
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "./logs/etf_downloader.log"
+  max_file_size: "10MB"
+  backup_count: 5
+  console_output: true
+  
+  # Logger-specific levels
+  loggers:
+    "httpx": "WARNING"
+    "asyncio": "WARNING"
+    "urllib3": "WARNING"
+
+# Monitoring and alerting
+monitoring:
+  enabled: false
+  metrics:
+    - "download_count"
+    - "error_rate"
+    - "processing_time"
+    - "data_quality_score"
+  alerts:
+    error_rate_threshold: 0.1
+    processing_time_threshold: 300  # seconds
+    
+# Advanced settings
+advanced:
+  # Graceful shutdown timeout
+  shutdown_timeout: 30
+  
+  # Data validation strictness
+  validation_mode: "strict"  # strict, lenient, disabled
+  
+  # Memory management
+  max_memory_usage: "1GB"
+  gc_frequency: 100  # operations between garbage collection
+  
+  # Debugging
+  debug_mode: false
+  profile_performance: false
+  trace_requests: false
+
+# Environment-specific overrides
+# These settings can be overridden by environment variables
+environment:
+  development:
+    logging:
+      level: "DEBUG"
+    cache:
+      ttl: 60
+  
+  production:
+    logging:
+      level: "INFO"
+    rate_limiting:
+      calls_per_minute: 300
+    cache:
+      ttl: 3600
