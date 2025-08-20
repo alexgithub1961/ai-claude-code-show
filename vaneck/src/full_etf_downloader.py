@@ -6,6 +6,7 @@ Full VanEck ETF Downloader - Downloads all available ETFs with PDF verification
 import asyncio
 import json
 import re
+import csv
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
@@ -218,31 +219,61 @@ class FullVanEckETFDownloader:
                 result['errors'].append(str(e)[:50])
                 continue
         
-        # CSV holdings download
-        holdings_file = etf_dir / f"{ticker}_holdings.csv"
-        holdings_urls = [
-            f"{self.base_url}/us/en/investments/{etf_slug}-{ticker_lower}-holdings.csv",
-            f"{self.base_url}/content/holdings/{ticker_lower}.csv",
-            f"{self.base_url}/api/etf/{ticker_lower}/holdings",
-        ]
+        # Holdings download - first try to get the page and extract API URL
+        holdings_csv_file = etf_dir / f"{ticker}_holdings.csv"
+        holdings_json_file = etf_dir / f"{ticker}_holdings.json"
         
-        for url in holdings_urls:
-            try:
-                async with session.get(url, headers=self.headers, timeout=aiohttp.ClientTimeout(total=30)) as response:
-                    if response.status == 200:
-                        content = await response.text()
+        # First, fetch the ETF page to get the API URL
+        etf_page_url = f"{self.base_url}/us/en/investments/{etf_slug}-{ticker_lower}"
+        
+        try:
+            async with session.get(etf_page_url, headers=self.headers, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                if response.status == 200:
+                    html = await response.text()
+                    
+                    # Extract API URL from JSON-LD metadata
+                    api_url_match = re.search(r'"contentUrl"\s*:\s*"([^"]+GetDataset[^"]+)"', html)
+                    
+                    if api_url_match:
+                        api_url = api_url_match.group(1)
                         
-                        # Check if it's CSV-like
-                        if ',' in content[:1000] and not content.startswith('<!'):
-                            with open(holdings_file, 'w') as f:
-                                f.write(content)
-                            result['csv_downloaded'] = True
-                            result['csv_size'] = len(content)
-                            self.download_stats['csv_downloaded'] += 1
-                            self.download_stats['bytes_downloaded'] += len(content.encode())
-                            break
-            except Exception:
-                continue
+                        # Download actual holdings data from API
+                        api_headers = self.headers.copy()
+                        api_headers['Accept'] = 'application/json, text/plain, */*'
+                        
+                        async with session.get(api_url, headers=api_headers, timeout=aiohttp.ClientTimeout(total=30)) as api_response:
+                            if api_response.status == 200:
+                                holdings_data = await api_response.json()
+                                
+                                # Save as JSON
+                                with open(holdings_json_file, 'w') as f:
+                                    json.dump(holdings_data, f, indent=2)
+                                
+                                # Convert to CSV if holdings exist
+                                if 'holdings' in holdings_data and holdings_data['holdings']:
+                                    holdings = holdings_data['holdings']
+                                    # Get all unique keys
+                                    all_keys = set()
+                                    for holding in holdings:
+                                        all_keys.update(holding.keys())
+                                    
+                                    # Write CSV
+                                    with open(holdings_csv_file, 'w', newline='', encoding='utf-8') as f:
+                                        writer = csv.DictWriter(f, fieldnames=sorted(all_keys))
+                                        writer.writeheader()
+                                        writer.writerows(holdings)
+                                    
+                                    result['csv_downloaded'] = True
+                                    result['csv_size'] = holdings_json_file.stat().st_size
+                                    self.download_stats['csv_downloaded'] += 1
+                                    self.download_stats['bytes_downloaded'] += result['csv_size']
+                                    console.print(f"[green]✓[/green] {ticker}: Holdings downloaded ({len(holdings)} positions)")
+                                else:
+                                    result['errors'].append("No holdings data in API response")
+                    else:
+                        result['errors'].append("Could not find API URL in page")
+        except Exception as e:
+            result['errors'].append(f"Holdings download error: {str(e)[:50]}")
         
         # Update stats
         if result['pdf_verified'] or result['csv_downloaded']:
