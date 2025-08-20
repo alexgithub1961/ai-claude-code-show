@@ -1,0 +1,415 @@
+{
+  "timestamp": "2025-08-20T13:45:03.465566",
+  "stats": {
+    "total": 30,
+    "success": 30,
+    "failed": 0,
+    "pdf_verified": 11,
+    "csv_downloaded": 30,
+    "bytes_downloaded": 6104570
+  },
+  "results": [
+    {
+      "ticker": "REMX",
+      "name": "Rare Earth/Strategic Metals ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 97705,
+      "csv_downloaded": true,
+      "csv_size": 161491,
+      "errors": [],
+      "pdf_hash": "86371d41c5456ee2"
+    },
+    {
+      "ticker": "RTM",
+      "name": "Retail ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/retail-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/rtm/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/rtm/rtm-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "XMMO",
+      "name": "MidCap Momentum ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/midcap-momentum-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/xmmo/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/xmmo/xmmo-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "PHO",
+      "name": "Water Resources ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/water-resources-etf-pho-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/water-resources-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/pho/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/pho/pho-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "SLV",
+      "name": "Silver ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/silver-etf-slv-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/silver-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/slv/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/slv/slv-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "BDJ",
+      "name": "Emerging Markets High Yield Bond ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/emerging-markets-high-yield-bond-etf-bdj-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/emerging-markets-high-yield-bond-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/bdj/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/bdj/bdj-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "IFLY",
+      "name": "Drone Economy ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/drone-economy-etf-ifly-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/drone-economy-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/ifly/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/ifly/ifly-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "GDXJ",
+      "name": "Junior Gold Miners ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 98522,
+      "csv_downloaded": true,
+      "csv_size": 169492,
+      "errors": [],
+      "pdf_hash": "62d27652639d32c8"
+    },
+    {
+      "ticker": "RYN",
+      "name": "Timber ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/timber-etf-ryn-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/timber-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/ryn/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/ryn/ryn-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "ANGL",
+      "name": "Fallen Angel High Yield Bond ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 183352,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/fallen-angel-high-yield-bond-etf-angl-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/fallen-angel-high-yield-bond-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/angl/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/angl/angl-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "ESPO",
+      "name": "Video Gaming and eSports ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 98835,
+      "csv_downloaded": true,
+      "csv_size": 170115,
+      "errors": [],
+      "pdf_hash": "bc36197699734862"
+    },
+    {
+      "ticker": "GDX",
+      "name": "Gold Miners ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 98132,
+      "csv_downloaded": true,
+      "csv_size": 170280,
+      "errors": [],
+      "pdf_hash": "baba814a7f20a0df"
+    },
+    {
+      "ticker": "MES",
+      "name": "Gulf States Index ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164732,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/gulf-states-index-etf-mes-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/gulf-states-index-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/mes/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/mes/mes-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "EDV",
+      "name": "Energy Income ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/content/files/etf/edv/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/edv/edv-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "SMH",
+      "name": "Semiconductor ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 97636,
+      "csv_downloaded": true,
+      "csv_size": 180144,
+      "errors": [],
+      "pdf_hash": "63ccf32b11085c52"
+    },
+    {
+      "ticker": "RSXJ",
+      "name": "Russia Small-Cap ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 162379,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/russia-small-cap-etf-rsxj-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/russia-small-cap-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/rsxj/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/rsxj/rsxj-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "BUZF",
+      "name": "BuzzFeed ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 161785,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/buzzfeed-etf-buzf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/buzzfeed-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/buzf/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/buzf/buzf-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "CNXT",
+      "name": "ChiNext ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 100778,
+      "csv_downloaded": true,
+      "csv_size": 163934,
+      "errors": [],
+      "pdf_hash": "55bbef4ae354d691"
+    },
+    {
+      "ticker": "MOO",
+      "name": "Agribusiness ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 100468,
+      "csv_downloaded": true,
+      "csv_size": 165542,
+      "errors": [],
+      "pdf_hash": "1ee186dcca1fb1f7"
+    },
+    {
+      "ticker": "KOL",
+      "name": "Coal ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/coal-etf-kol-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/coal-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/kol/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/kol/kol-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "JETS",
+      "name": "U.S. Global Jets ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/us-global-jets-etf-jets-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/us-global-jets-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/jets/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/jets/jets-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "MOAT",
+      "name": "Morningstar Wide Moat ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 101012,
+      "csv_downloaded": true,
+      "csv_size": 183068,
+      "errors": [],
+      "pdf_hash": "c1d888905b29bd9d"
+    },
+    {
+      "ticker": "ASHR",
+      "name": "China A-Shares ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/china-a-shares-etf-ashr-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/china-a-shares-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/ashr/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/ashr/ashr-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "KWEB",
+      "name": "China Internet ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/china-internet-etf-kweb-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/china-internet-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/kweb/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/kweb/kweb-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "NLR",
+      "name": "Uranium+Nuclear Energy ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 99610,
+      "csv_downloaded": true,
+      "csv_size": 179309,
+      "errors": [],
+      "pdf_hash": "86ce78e98213c770"
+    },
+    {
+      "ticker": "EVX",
+      "name": "Environmental Services ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164088,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/environmental-services-etf-evx-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/environmental-services-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/evx/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/evx/evx-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "OIH",
+      "name": "Oil Services ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 96234,
+      "csv_downloaded": true,
+      "csv_size": 167109,
+      "errors": [],
+      "pdf_hash": "d36ac8da8cad67e5"
+    },
+    {
+      "ticker": "PEK",
+      "name": "China Bond ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/china-bond-etf-pek-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/china-bond-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/pek/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/pek/pek-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "FILL",
+      "name": "Global Water ETF",
+      "pdf_downloaded": false,
+      "pdf_verified": false,
+      "pdf_size": 0,
+      "csv_downloaded": true,
+      "csv_size": 164738,
+      "errors": [
+        "Not a PDF from https://www.vaneck.com/us/en/investments/global-water-etf-fill-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/investments/global-water-etf-fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/content/files/etf/fill/fact-sheet.pdf",
+        "Not a PDF from https://www.vaneck.com/us/en/vaneck-etfs/fill/fill-fact-sheet.pdf"
+      ]
+    },
+    {
+      "ticker": "HAP",
+      "name": "Natural Resources ETF",
+      "pdf_downloaded": true,
+      "pdf_verified": true,
+      "pdf_size": 100763,
+      "csv_downloaded": true,
+      "csv_size": 161526,
+      "errors": [],
+      "pdf_hash": "30444ce375060a10"
+    }
+  ]
+}

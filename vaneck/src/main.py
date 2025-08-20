@@ -60,17 +60,17 @@ def main():
     
     # Import the actual downloader
     try:
-        # Try the fixed downloader first
-        from fixed_vaneck_downloader import main as downloader_main
+        # Try the full downloader with verification
+        from full_etf_downloader import main as downloader_main
         import asyncio
         
-        print("Starting VanEck ETF download process (Fixed Version)...")
+        print("Starting VanEck ETF download process (Full Version with Verification)...")
         print()
         
         # Run the async downloader
         asyncio.run(downloader_main(
             download_dir=str(download_dir),
-            max_etfs=args.max_etfs,
+            max_etfs=args.max_etfs if args.max_etfs > 0 else None,
             dry_run=args.dry_run
         ))
         
