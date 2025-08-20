@@ -26,6 +26,8 @@ RUN apk add --no-cache \
     openssl-dev \
     python3-dev \
     yaml-dev \
+    libxml2-dev \
+    libxslt-dev \
     build-base
 
 # Set up Python environment
