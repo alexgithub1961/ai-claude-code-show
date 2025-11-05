@@ -38,8 +38,9 @@ env/
 *.swo
 *~
 
-# Reports and data
-reports/
+# Reports and data (generated files only, not source code)
+/reports/
+/data/
 data/cached_*.json
 *.log
 
