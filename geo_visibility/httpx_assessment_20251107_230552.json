@@ -1,0 +1,84 @@
+{
+  "timestamp": "20251107_230552",
+  "queries": [
+    "EPAM software company",
+    "First Line Software AI services",
+    "top AI consulting companies 2024",
+    "who can build custom RAG systems",
+    "generative AI consulting firms"
+  ],
+  "results": [
+    {
+      "query": "EPAM software company",
+      "api_has_ai_overview": false,
+      "httpx_has_ai_overview": false,
+      "difference": false,
+      "httpx_result": {
+        "query": "EPAM software company",
+        "has_ai_overview": false,
+        "ai_overview": null,
+        "organic_results": [],
+        "timestamp": "2025-11-07T23:05:18.929121"
+      }
+    },
+    {
+      "query": "First Line Software AI services",
+      "api_has_ai_overview": false,
+      "httpx_has_ai_overview": false,
+      "difference": false,
+      "httpx_result": {
+        "query": "First Line Software AI services",
+        "has_ai_overview": false,
+        "ai_overview": null,
+        "organic_results": [],
+        "timestamp": "2025-11-07T23:05:25.420245"
+      }
+    },
+    {
+      "query": "top AI consulting companies 2024",
+      "api_has_ai_overview": false,
+      "httpx_has_ai_overview": false,
+      "difference": false,
+      "httpx_result": {
+        "query": "top AI consulting companies 2024",
+        "has_ai_overview": false,
+        "ai_overview": null,
+        "organic_results": [],
+        "timestamp": "2025-11-07T23:05:32.749841"
+      }
+    },
+    {
+      "query": "who can build custom RAG systems",
+      "api_has_ai_overview": false,
+      "httpx_has_ai_overview": false,
+      "difference": false,
+      "httpx_result": {
+        "query": "who can build custom RAG systems",
+        "has_ai_overview": false,
+        "ai_overview": null,
+        "organic_results": [],
+        "timestamp": "2025-11-07T23:05:41.333563"
+      }
+    },
+    {
+      "query": "generative AI consulting firms",
+      "api_has_ai_overview": false,
+      "httpx_has_ai_overview": false,
+      "difference": false,
+      "httpx_result": {
+        "query": "generative AI consulting firms",
+        "has_ai_overview": false,
+        "ai_overview": null,
+        "organic_results": [],
+        "timestamp": "2025-11-07T23:05:49.662843"
+      }
+    }
+  ],
+  "api_ai_overview_count": 0,
+  "httpx_ai_overview_count": 0,
+  "total_queries": 5,
+  "differences_found": 0,
+  "api_rate": 0.0,
+  "httpx_rate": 0.0,
+  "difference_percentage": 0.0
+}

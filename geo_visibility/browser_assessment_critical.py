@@ -149,7 +149,12 @@ async def main():
     print("  • Provide strategic recommendations")
     print(f"\nEstimated time: 2-3 minutes")
 
-    input("\nPress Enter to start...")
+    # Skip interactive prompt if not in terminal
+    import sys
+    if sys.stdin.isatty():
+        input("\nPress Enter to start...")
+    else:
+        print("\nStarting assessment...")
 
     results = await run_critical_assessment(searchapi_key)
 
