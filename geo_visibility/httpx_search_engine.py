@@ -186,64 +186,134 @@ class HttpxSearchEngine:
         Extract organic search results from Google SERP.
 
         Google organic results typically have:
-        - <div class="g"> containers
+        - <div class="g"> containers (or similar)
         - <h3> for titles
         - <a> for URLs
         - Various div classes for snippets
         """
         results = []
 
-        # Strategy 1: Standard Google result divs with class "g"
-        result_divs = soup.find_all('div', class_='g')
+        # Strategy 1: Find all <h3> tags (Google uses these for result titles)
+        h3_tags = soup.find_all('h3')
 
-        for div in result_divs[:10]:  # Top 10 results
+        for h3 in h3_tags[:15]:  # Top 15 to ensure we get at least 10
             try:
-                # Extract title
-                title_elem = div.find('h3')
-                title = title_elem.get_text(strip=True) if title_elem else ""
+                # Title from h3
+                title = h3.get_text(strip=True)
 
-                # Extract URL
-                link_elem = div.find('a')
-                url = link_elem.get('href', '') if link_elem else ""
+                # Find parent link
+                link = h3.find_parent('a')
+                if not link:
+                    # Try finding sibling or nearby link
+                    parent = h3.find_parent(['div', 'article'])
+                    if parent:
+                        link = parent.find('a')
 
-                # Extract snippet
-                snippet_elem = div.find('div', class_=re.compile(r'(VwiC3b|lyLwlc|s3v9rd)'))
-                if not snippet_elem:
-                    snippet_elem = div.find('span', class_=re.compile(r'(st|aCOpRe)'))
-                snippet = snippet_elem.get_text(strip=True) if snippet_elem else ""
+                if not link:
+                    continue
+
+                url = link.get('href', '')
+
+                # Clean Google redirect URLs
+                if url.startswith('/url?q='):
+                    match = re.search(r'/url\?q=([^&]+)', url)
+                    if match:
+                        url = match.group(1)
+
+                # Skip internal Google links
+                if not url or url.startswith('#') or 'google.com' in url:
+                    continue
+
+                # Find snippet (search near the link/title)
+                snippet = ""
+                parent = h3.find_parent(['div', 'article'])
+                if parent:
+                    # Look for common snippet classes/tags
+                    snippet_elem = (
+                        parent.find('div', class_=re.compile(r'(VwiC3b|lyLwlc|s3v9rd|IsZvec)')) or
+                        parent.find('span', class_=re.compile(r'(st|aCOpRe)')) or
+                        parent.find('div', attrs={'data-sncf': '1'}) or
+                        parent.find('div', attrs={'data-snf': 'nke7rc'})
+                    )
+                    if snippet_elem:
+                        snippet = snippet_elem.get_text(strip=True)
 
                 if title and url:
                     results.append({
                         "title": title,
                         "url": url,
                         "snippet": snippet,
+                        "position": len(results) + 1,
                     })
-            except Exception:
+
+            except Exception as e:
                 continue
 
-        # Strategy 2: If strategy 1 found nothing, try alternate structure
-        if not results:
-            links = soup.find_all('a', href=re.compile(r'^/url\?q='))
-            for link in links[:10]:
+        # Strategy 2: Standard div class="g" approach (backup)
+        if len(results) < 3:
+            result_divs = soup.find_all('div', class_='g')
+
+            for div in result_divs[:10]:
                 try:
-                    url = link.get('href', '')
-                    # Extract actual URL from Google redirect
-                    match = re.search(r'/url\?q=([^&]+)', url)
-                    if match:
-                        url = match.group(1)
+                    title_elem = div.find('h3')
+                    title = title_elem.get_text(strip=True) if title_elem else ""
 
-                    title = link.get_text(strip=True)
+                    link_elem = div.find('a')
+                    url = link_elem.get('href', '') if link_elem else ""
 
-                    if title and url:
+                    snippet_elem = div.find('div', class_=re.compile(r'(VwiC3b|lyLwlc|s3v9rd)'))
+                    if not snippet_elem:
+                        snippet_elem = div.find('span', class_=re.compile(r'(st|aCOpRe)'))
+                    snippet = snippet_elem.get_text(strip=True) if snippet_elem else ""
+
+                    if title and url and url not in [r['url'] for r in results]:
                         results.append({
                             "title": title,
                             "url": url,
-                            "snippet": "",
+                            "snippet": snippet,
+                            "position": len(results) + 1,
                         })
                 except Exception:
                     continue
 
-        return results
+        # Strategy 3: Look for any <a> with <h3> children (most reliable)
+        if len(results) < 3:
+            links_with_h3 = soup.find_all('a', href=True)
+
+            for link in links_with_h3[:20]:
+                try:
+                    h3 = link.find('h3')
+                    if not h3:
+                        continue
+
+                    title = h3.get_text(strip=True)
+                    url = link.get('href', '')
+
+                    # Clean URL
+                    if url.startswith('/url?q='):
+                        match = re.search(r'/url\?q=([^&]+)', url)
+                        if match:
+                            url = match.group(1)
+
+                    # Skip Google internal links
+                    if not url or url.startswith('#') or 'google.com' in url or url.startswith('/search'):
+                        continue
+
+                    # Avoid duplicates
+                    if url in [r['url'] for r in results]:
+                        continue
+
+                    results.append({
+                        "title": title,
+                        "url": url,
+                        "snippet": "",
+                        "position": len(results) + 1,
+                    })
+
+                except Exception:
+                    continue
+
+        return results[:10]  # Return top 10
 
 
 async def compare_api_vs_httpx(query: str, searchapi_key: str) -> Dict:

@@ -1,0 +1,258 @@
+{
+  "timestamp": "20251107_231247",
+  "queries": [
+    "EPAM software company",
+    "First Line Software AI services",
+    "top AI consulting companies 2024",
+    "who can build custom RAG systems",
+    "generative AI consulting firms"
+  ],
+  "results": [
+    {
+      "query": "EPAM software company",
+      "api_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [
+            {
+              "position": 1,
+              "title": "EPAM | Software Engineering & Product Development Services",
+              "url": "",
+              "snippet": "Since 1993, we've helped customers digitally transform their businesses through our unique blend of world-class software engineering, design and consulting ..."
+            },
+            {
+              "position": 2,
+              "title": "EPAM Systems",
+              "url": "",
+              "snippet": "EPAM Systems, Inc. is an American company that specializes in software engineering services, digital platform engineering, and digital product design."
+            },
+            {
+              "position": 3,
+              "title": "EPAM Systems",
+              "url": "",
+              "snippet": "A leading global provider of digital engineering, cloud and AI-enabled transformation services, and a leading business and experience consulting partner."
+            },
+            {
+              "position": 4,
+              "title": "Working at EPAM Systems (Careers & Employment)",
+              "url": "",
+              "snippet": "EPAM Systems Inc. (EPAM) is a leading digital transformation services and product engineering company. Our teams of technologists, strategists and designers"
+            },
+            {
+              "position": 5,
+              "title": "EPAM Global (@epamsystems)",
+              "url": "",
+              "snippet": "Official account of EPAM, a leading digital transformation services and product engineering company. Follow us to learn more about #LifeAtEPAM."
+            },
+            {
+              "position": 6,
+              "title": "EPAM India: Home",
+              "url": "",
+              "snippet": "Today, EPAM India serves more than 150 clients with 900+ active projects. We work across all major industries like financial services, software & hi-tech ..."
+            },
+            {
+              "position": 7,
+              "title": "EPAM Systems, Inc. (EPAM) Stock Price, News, Quote & ...",
+              "url": "",
+              "snippet": "EPAM Systems, Inc. provides digital platform engineering and software development services worldwide. The company offers engineering services, including ..."
+            }
+          ],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 7,
+        "unique_companies": 1
+      },
+      "httpx_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "differences_found": true,
+      "api_organic_count": 7,
+      "httpx_organic_count": 0
+    },
+    {
+      "query": "First Line Software AI services",
+      "api_analysis": {
+        "companies_found": {
+          "First Line Software": [
+            {
+              "position": 1,
+              "title": "First Line Software: Managed AI Services for Business Impact",
+              "url": "",
+              "snippet": "First Line Software delivers Managed AI Services to design, deploy, and manage scalable AI solutions for real business impact."
+            },
+            {
+              "position": 3,
+              "title": "Managed AI Services: Fast-Track to Becoming AI-First",
+              "url": "",
+              "snippet": "First Line Software delivers Managed AI Services to design, deploy, and manage scalable AI-First solutions. Read and get your Guide."
+            },
+            {
+              "position": 5,
+              "title": "Legal Compliance with RegulationAI: Managed AI Services",
+              "url": "",
+              "snippet": "RegulationAI, developed by First Line Software, offers an innovative solution to automate and simplify compliance processes in the dynamic legal field."
+            },
+            {
+              "position": 6,
+              "title": "Managed AI Services at Every Stage | First Line Software",
+              "url": "",
+              "snippet": "MAIS (Managed AI Services) is our new offering designed to help you turn promising use cases into agentic AI applications that integrate with systems, people, ..."
+            },
+            {
+              "position": 10,
+              "title": "Progress Partner First Line Software, Inc.",
+              "url": "",
+              "snippet": "Develop the responsible AI-powered applications and experiences you need, deploy them where and how you want and manage it all with Progress AI-driven products."
+            }
+          ],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 5,
+        "unique_companies": 1
+      },
+      "httpx_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "differences_found": true,
+      "api_organic_count": 10,
+      "httpx_organic_count": 0
+    },
+    {
+      "query": "top AI consulting companies 2024",
+      "api_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "httpx_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "differences_found": false,
+      "api_organic_count": 10,
+      "httpx_organic_count": 0
+    },
+    {
+      "query": "who can build custom RAG systems",
+      "api_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "httpx_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "differences_found": false,
+      "api_organic_count": 8,
+      "httpx_organic_count": 0
+    },
+    {
+      "query": "generative AI consulting firms",
+      "api_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "httpx_analysis": {
+        "companies_found": {
+          "First Line Software": [],
+          "EPAM": [],
+          "DataArt": [],
+          "Endava": [],
+          "Projectus": [],
+          "Luxsoft": []
+        },
+        "total_mentions": 0,
+        "unique_companies": 0
+      },
+      "differences_found": false,
+      "api_organic_count": 9,
+      "httpx_organic_count": 9
+    }
+  ],
+  "summary": {
+    "api_total_vendors": 12,
+    "httpx_total_vendors": 0,
+    "difference": -12,
+    "queries_with_differences": 2,
+    "company_totals_api": {
+      "First Line Software": 5,
+      "EPAM": 7,
+      "DataArt": 0,
+      "Endava": 0,
+      "Projectus": 0,
+      "Luxsoft": 0
+    },
+    "company_totals_httpx": {
+      "First Line Software": 0,
+      "EPAM": 0,
+      "DataArt": 0,
+      "Endava": 0,
+      "Projectus": 0,
+      "Luxsoft": 0
+    }
+  }
+}
