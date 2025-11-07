@@ -110,3 +110,4 @@ class EngineCredentials(BaseModel):
     perplexity_api_key: Optional[str] = None
     deepseek_api_key: Optional[str] = None
     grok_api_key: Optional[str] = None
+    searchapi_api_key: Optional[str] = None  # For Google AI Overview via SearchAPI

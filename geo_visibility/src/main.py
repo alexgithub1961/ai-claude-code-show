@@ -223,6 +223,7 @@ def assess(engines, business_areas, max_queries, refine, output_dir):
         perplexity_api_key=os.getenv("PERPLEXITY_API_KEY"),
         deepseek_api_key=os.getenv("DEEPSEEK_API_KEY"),
         grok_api_key=os.getenv("GROK_API_KEY"),
+        searchapi_api_key=os.getenv("SEARCHAPI_API_KEY"),
     )
 
     # Setup company config
@@ -331,6 +332,13 @@ DEEPSEEK_API_KEY=your_deepseek_api_key_here
 
 # Grok (xAI)
 GROK_API_KEY=your_grok_api_key_here
+
+# SearchAPI (for Google AI Overview / Chrome AI Summary)
+# Get your key from: https://www.searchapi.io/
+SEARCHAPI_API_KEY=your_searchapi_api_key_here
+
+# Note: Chrome AI Summary will use SearchAPI if available,
+# otherwise simulate with GPT if OpenAI key is provided
 """
         Path(".env").write_text(env_template)
         print("Created .env template. Please add your API keys.")

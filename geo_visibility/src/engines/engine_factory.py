@@ -72,16 +72,64 @@ class EngineFactory:
                 **kwargs
             )
         elif engine_type == AIEngine.CHROME_AI:
-            # Chrome AI Summary - no public API, would need manual testing
-            from .mock_engine import MockEngine
-            return MockEngine(engine_type=AIEngine.CHROME_AI)
+            # Chrome AI Summary - try SearchAPI first, fall back to simulation or mock
+            use_searchapi = kwargs.get("use_searchapi", True)
+            use_simulation = kwargs.get("use_simulation", True)
+
+            if use_searchapi and credentials.searchapi_api_key:
+                # Use SearchAPI to get real Google AI Overview results
+                from .searchapi_engine import SearchAPIEngine
+                return SearchAPIEngine(
+                    api_key=credentials.searchapi_api_key,
+                    **kwargs
+                )
+            elif use_simulation and credentials.openai_api_key:
+                # Simulate using GPT
+                from .simulated_engine import SimulatedAIEngine
+                return SimulatedAIEngine(
+                    openai_api_key=credentials.openai_api_key,
+                    target_engine=AIEngine.CHROME_AI,
+                    **kwargs
+                )
+            else:
+                # Fall back to mock
+                from .mock_engine import MockEngine
+                return MockEngine(engine_type=AIEngine.CHROME_AI)
         else:
             raise ValueError(f"Unsupported engine type: {engine_type}")
+
+    @staticmethod
+    def create_simulated_engine(
+        target_engine: AIEngine,
+        credentials: Optional[EngineCredentials] = None,
+        **kwargs
+    ) -> AIEngineBase:
+        """
+        Create a simulated version of an AI engine using GPT.
+
+        Args:
+            target_engine: The engine to simulate
+            credentials: API credentials (needs OpenAI key)
+            **kwargs: Additional configuration
+
+        Returns:
+            SimulatedAIEngine instance
+        """
+        if credentials is None:
+            credentials = EngineCredentials()
+
+        from .simulated_engine import SimulatedAIEngine
+        return SimulatedAIEngine(
+            openai_api_key=credentials.openai_api_key,
+            target_engine=target_engine,
+            **kwargs
+        )
 
     @staticmethod
     def create_all_engines(
         credentials: Optional[EngineCredentials] = None,
         exclude: Optional[list[AIEngine]] = None,
+        use_simulation: bool = False,
     ) -> Dict[AIEngine, AIEngineBase]:
         """
         Create instances of all available engines.
@@ -89,6 +137,7 @@ class EngineFactory:
         Args:
             credentials: API credentials
             exclude: List of engines to exclude
+            use_simulation: Use simulated engines when API not available
 
         Returns:
             Dictionary mapping engine types to instances
@@ -102,6 +151,12 @@ class EngineFactory:
                 try:
                     engine = EngineFactory.create_engine(engine_type, credentials)
                     if engine.is_configured() or engine_type == AIEngine.CHROME_AI:
+                        engines[engine_type] = engine
+                    elif use_simulation and credentials and credentials.openai_api_key:
+                        # Create simulated version if OpenAI is available
+                        engine = EngineFactory.create_simulated_engine(
+                            engine_type, credentials
+                        )
                         engines[engine_type] = engine
                 except Exception as e:
                     print(f"Warning: Could not create {engine_type.value} engine: {e}")
