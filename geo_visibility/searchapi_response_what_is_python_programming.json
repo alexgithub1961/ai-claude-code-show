@@ -1,0 +1,369 @@
+{
+  "search_metadata": {
+    "id": "search_mpO7djkNqoswbmpnQvAPE9xq",
+    "status": "Success",
+    "created_at": "2025-11-07T19:19:40Z",
+    "request_time_taken": 4.2,
+    "parsing_time_taken": 0.1,
+    "total_time_taken": 4.3,
+    "request_url": "https://www.google.com/search?q=what+is+python+programming&oq=what+is+python+programming&gl=us&hl=en&ie=UTF-8",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_mpO7djkNqoswbmpnQvAPE9xq.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_mpO7djkNqoswbmpnQvAPE9xq"
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "what is python programming",
+    "device": "desktop",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us"
+  },
+  "search_information": {
+    "query_displayed": "what is python programming",
+    "total_results": 413000000,
+    "time_taken_displayed": 0.34,
+    "has_no_results_for": false
+  },
+  "ai_overview": {
+    "error": "An AI Overview is not available for this search",
+    "page_token": "L2FzeW5jL2ZvbHNyY2g_aGxceDNkZW5ceDI2Z2xceDNkdXNceDI2eXZceDNkM1x4MjZjc1x4M2QwXHgyNmVpXHgzZFQwWU9hY1hxSXJpbHF0c1A3cEd1cUFZXHgyNmFzeW5jXHgzZF9iYXNlanM6L3hqcy9fL2pzL2slM0R4anMucy5lbi4zeGdlYk1sRDIwYy4yMDE5Lk8vYW0lM0RBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUlBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFnQVVBQUFvRUFBUUFBQUFBQUFBQUVBQUFnQUNBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUlDQUJBQVFBSUFBQUFBQUFBQUFBQUFBQUFBQUlBQUFBQUFBQUFBQUJnQUFRQUFBUVFLQUFBQUJRQUFBQUFBQUFBQUFBQUFBQUlnQUFBQUFJQUVTQUR3M183QUFRQUFBQUFBQUFBQUFRQUFBQUFBQUFBQUFBQUFFZ0FBQUFBQUFBQmdBUUNBb0RBQUFBRUlBUVFBQUFBQUFBQUFBQUFBQUFBQUVBQUFBQUFBQUVBQUFBQUFBRUFBQUFBQUJRQUFDQUFBQUFBQUFBQUFBQUFBQUFBQUVBQUFBQUFBQUFBQUFBQUFBSUFBQUFEQUFRQUFBRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFnQkRBQUFBQUFBQUNBQWdBQy1BRUFnQUFBQUFBQUhBQUFRQWdBQUFDd2dDSUJBRUFBQUFBQVFBNEFqd2R3U0VFQkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFFb0NPWkEtZ0VCQkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUpBaWJHS3RBUUFCL2RnJTNEMC9iciUzRDEvcnMlM0RBQ1Q5MG9GNUhPVEhILXJDSlZJbm9WUF9tRkxTZTlIVTZnLF9iYXNlY3NzOi94anMvXy9zcy9rJTNEeGpzLnMuX0lHS01EemNYZTQuTC5CMS5PL2FtJTNEQUFBSUFBQWdFQUFBQUFBQUFBQUFBQWdBZ0JBQUFRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFJQUFBQUFBQUFBQUFBUUFBQUFBQUFBQUFBQUFBQUFBQUFBSUFFQ0FNZ1FBQUFBQUFPZ0ZBQUJTQUFBQUFBQUFBUEFBR0FoQkJnQUFBQUFBQUNBQUJBQUFRQUlBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJBQUFBQUFBQUFBUUFBQVlRQUFBQUFnQUlBRUFBQUFBQUFBQUFBQUFBZ0JBQUFBQUFBUUFBQUFBQ0FBUU1BQUFBSUFBQUFBQWdFQUlBQUFBQVFBQUFHZ0RBQUFBQUFBRElBQUFBQUFBQUFBQUVBQVFBQUFBQUFBRVFBQkNBQUFBQUFBQUFBR0FBQUFBQUFBQUFEWUVFZ0NJQkFCUkFBQURnQUFBQUFBQUFnQUFBQUFBQUFBQVFBUUVBQUFnQUFBQUFJQUFCQUFBRElBd0FBSUFBQUJDQWdBUEFHQ0F3QUFBQ0JBQUFSQUFBb0FDQUFRQ0FBQUFDQWdnQVFBQUFBQUFBQUFBQUFqQUFBQUFBQVlBR3dpQ0lCQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFVQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUMvYnIlM0QxL3JzJTNEQUNUOTBvR3dNSFFYakNQZDlUcWVpVmxmZ3JFdGpNa0hTQSxfYmFzZWNvbWI6L3hqcy9fL2pzL2slM0R4anMucy5lbi4zeGdlYk1sRDIwYy4yMDE5Lk8vY2slM0R4anMucy5fSUdLTUR6Y1hlNC5MLkIxLk8vYW0lM0RBQUFJQUFBZ0VBQUFBQUFBQUFBQUFBZ0FnQkFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUlBQUFBQUFBQUFBQUFRQUFBQUFBQUFBQUFBQUFnQVVBQUFvRUVDUU1nUUFBQUFBQU9nRkFnQlNBQUFBQUFBQUFQQUFHQWhCQmdBQUFBQUFBQ0lDQkJBQVFBSUFBQUFBQUFBQUFBQUFBQUFBQUlBQUFBQkFBQUFBQUJnQUFRQUFBWVFLQUFBQWhRSUFFQUFBQUFBQUFBQUFBQUlnQkFBQUFJQUVTQUR3M183QUFRTUFBQUFJQUFBQUFRZ0VBSUFBQUFBUUFBQUdrakFBQUFBQUFESmdBUUNBb0RBQUFBRUlBUVFBQUFBQUFFUUFCQ0FBQUFBQUVBQUFHQUFBQUVBQUFBQURZRUVnQ0lCQUJSQUFDRGdBQUFBQUFBQWdBQUFBQUFBQUVBUUFRRUFBQWdBQUFBQUlBSUJBQUFESUF3QUFJRUFBQkNBZ0FQQUdDQXdBQUFDQkFBQVJBQUFvQkRBQVFDQUFBQUNBZ2dBUy1BRUFnQUFBQUFBQW5BQUFRQWdBWUFHd2lDSUJBRUFBQUFBQVFBNEFqd2R3U0VFQkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFFb0NPWkEtZ1VCQkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUpBaWJHS3RBUUFCL2QlM0QxL2VkJTNEMS9kZyUzRDAvYnIlM0QxL3VqZyUzRDEvcnMlM0RBQ1Q5MG9HVk5hX2k5WnRCOHg3ajFVQktyQmltWkZoeG1BLF9mbXQ6YWRsLF9pZDpCMkp0eWRceDI2cVx4M2R3aGF0K2lzK3B5dGhvbitwcm9ncmFtbWluZ1x4MjZtbHJvXHgzZDBhNC1US3RSdHplQ3RZMC1fVlBvNUJaNmxyZHdDX3JZdWJPLUNxVXR4ODZzTnJWSkdwWmZ2ZHpDVU11NGxKRHdUcmJORHk3TC12VTZ4UVFNSUxhQ1lrbVA1REpUR1ROdTF5azdIcnRSeXl1eGtQQ1ExWnJoeEdMTEZPMEs2SThrbm53V2tZWEdceDI2bWxyb3NceDNkSW1KM01RUHdTcmNceDI2bXJjXHgzZENBQTRrQU5RQVFceDI2c2NhX2Vzdlx4M2QxODNjODBlNDIwYzExZDcyXHgyNm1ndHlwXHgzZDQx"
+  },
+  "ads": [
+    {
+      "position": 1,
+      "block_position": "top",
+      "title": "Python Programming Language Overview",
+      "link": "https://codefinity.com/blog/Python-Programming-Language-Overview",
+      "source": "Codefinity.com",
+      "domain": "codefinity.com",
+      "displayed_link": "https://www.codefinity.com",
+      "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi5wvqC4eCQAxUOU38AHV8QLsoYACICCAEQARoCb2E&co=1&ase=2&gclid=EAIaIQobChMIucL6guHgkAMVDlN_AB1fEC7KEAAYASAAEgKSyPD_BwE&cid=CAASsAHkaPk89kpjXezx2uqmA4xFQFUSMpy2e2cE25_6EJxNJ5m7JpYkg1GdM4dvJvfUrrPe57iTJmrf0T9aK2fP74nQgGVcugAehkN9yBBSlNsICcvHQ4CSdUqc7vupicFcvJ5uzVfo6I1FGu7uo7mXVSmg4Saan3m99ghf2dN52VRS4n_W_-8CRqbfxfdsMel5Hm3zmZtddOycNShrCVTPjeWAcHF3Dq4JSIOkfg34DDB2sw&cce=2&category=acrcp_v1_32&sig=AOD64_0w3baP8EUqV0YbXUCubo6DHjtDgA&q&nis=4&adurl",
+      "snippet": "Learn why developers of all levels prefer Python. From its clean syntax and numerous libraries to its cross-platform compatibility and community support, this article explores Python's features and advantages...",
+      "snippet_highlighted_words": [
+        "Python",
+        "Python's"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADGklEQVRYhe3WbWiWVRgH8N/jNleupYGrIG0QRFJBHyQhJoQRaxVFEVIhBL1Y7Q10ZtCHcFD2oTWildOckRT1oYQcFPmgWQQ5rSxislkIGUYJTVibzrb2PHcfzp52Py97w9Yo/H+573Nd9zn//3XOdV3nTkRRlMI8c4Q5Iz4v4LyAcxOQ7OCJBEcPhfGeDuoTdH8+ywIG+th0E+8/TgJdu4J9X3N4tt7M67VE0SwI+OxdGivoO8gCQUBxSfAVl4fxxfh2G3Xz+OGrf0jA0ACbq3l7DQtRFPNF6bFnatw2H8XYvIKdG89RQNdu6hfyy17Kcnx/oLwivJdXMhLzJQSxB1+iMcHx7gkpEgVb8fBZ2tbQ+wEX5cxIYwAPtHNH7ZgtRUcjXVspHxOQQYTfcXszD26ahoDDSdprKBW2Mo6zqLiepo9ZvCQ/nJ4DtFUFASU5vmGULWbDAa64egIBrz3M4Z0h6ngUmajv38KddfnEcURptjcU3o00+vHQDqofzRHw2wmaruSSQlFfR9OewlFPhJ4vaFtZeDdO4Z1Qqtlnn/vhCFa/wQtHZkYO11axLeLG9Yzm+GJHO3kVFOFIkuGhmZFncPJHju2blGXcVVJKLk8Rjr1HXRnffToz8o/a2XgVA93ZAtKy8mLctehS1nWGZIv1FcVC53v5FjoapiY+3U9zFbvrQz7FyUeEsnyu929TfhkOnKKlhpNfc2HO4iNCnjzdy9Jl+eRffsjWu4LgrI6J01ixltrtWVMKNyLofIVd61gkv7H0475W7mkKtnSKLY/wzVuh9OJICZVUn2R5dR7NxALg5+95cVmIfH6ObxB3t3DvUzx/Kyc+Cc0rjiFUrmJDJwtylQVMXgVLrqEtYnlDyI34LXsBBvvGxPyUXcKZhrO6g2f3T0g+tYAM1r7K+v0honhNJ8amJ2IHPozSy2k5zm2PTbn09P8HblhF+xmW1nBGiHL0z+AbHRy/dFY+Q+uvXFY5vXWjKEpFM8XeN6PoSVF09FAYJ3dEUb0o6uma8VKTJ+G/gP/oX/H/TUBiyq9mEcVCZc/ZTvwFUN5mG3srSlsAAAAASUVORK5CYII=",
+      "advertiser_info_token": "QVFkZTkzNVRGR2lsZlZMWFdJdFppb05rMkUyOXlNVFdVTWU4Tm85blZtb1IzN1dPNzQ2TFU0aXdacnJVTnNva2xoOHNndlZGNDExWnYwTV9mRFFocWhNYjE3WDV6TWVZTkctUUJlU0dHUVljTmhiaTFjN1JmMzRIdXY1b012dTg4elJPUDk5MXFhUkQ2UGFLTGZrME10MUdtRFNRVDlCalpWU3dfMnFVRUpyZ1R0UmF2R2hJOE1qY3pQYkpfcl9VaDNvSjJyZHBHbld5ekVEZ3RJNmtKX1padVF5ekt2amZ6Y3ppTTc3Y3FKNG52ajluMHBHd2xjRW9oWnZhbWt3"
+    },
+    {
+      "position": 2,
+      "block_position": "top",
+      "title": "Learn Python For Free - Python For Beginners",
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi5wvqC4eCQAxUOU38AHV8QLsoYACICCAEQCBoCb2E&co=1&ase=2&gclid=EAIaIQobChMIucL6guHgkAMVDlN_AB1fEC7KEAAYAiADEgK9hfD_BwE&cid=CAASsAHkaPk89kpjXezx2uqmA4xFQFUSMpy2e2cE25_6EJxNJ5m7JpYkg1GdM4dvJvfUrrPe57iTJmrf0T9aK2fP74nQgGVcugAehkN9yBBSlNsICcvHQ4CSdUqc7vupicFcvJ5uzVfo6I1FGu7uo7mXVSmg4Saan3m99ghf2dN52VRS4n_W_-8CRqbfxfdsMel5Hm3zmZtddOycNShrCVTPjeWAcHF3Dq4JSIOkfg34DDB2sw&cce=2&category=acrcp_v1_32&sig=AOD64_0w7GHSfz6ueWiBTtHdUiJ2Ke1JAg&q=&nis=4&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQh78CegQIIBAB&adurl=",
+      "source": "Brilliant.org",
+      "domain": "www.google.com",
+      "displayed_link": "https://www.brilliant.org \u203a python \u203a try-for-free",
+      "snippet": "Learn By Doing \u2014 Visual, Interactive Courses That Are Effective And Fun \u2014 Learn...",
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Free Python Practice",
+            "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi5wvqC4eCQAxUOU38AHV8QLsoYACICCAEQCRoCb2E&co=1&ase=2&gclid=EAIaIQobChMIucL6guHgkAMVDlN_AB1fEC7KEAAYAiAEEgImJfD_BwE&cid=CAASsAHkaPk89kpjXezx2uqmA4xFQFUSMpy2e2cE25_6EJxNJ5m7JpYkg1GdM4dvJvfUrrPe57iTJmrf0T9aK2fP74nQgGVcugAehkN9yBBSlNsICcvHQ4CSdUqc7vupicFcvJ5uzVfo6I1FGu7uo7mXVSmg4Saan3m99ghf2dN52VRS4n_W_-8CRqbfxfdsMel5Hm3zmZtddOycNShrCVTPjeWAcHF3Dq4JSIOkfg34DDB2sw&cce=2&category=acrcp_v1_32&sig=AOD64_2CGtoe7u1kLHeM_o2jdcNhmeHjJA&adurl=&q="
+          },
+          {
+            "title": "Learn Python \u2014 Now Free",
+            "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi5wvqC4eCQAxUOU38AHV8QLsoYACICCAEQCxoCb2E&co=1&ase=2&gclid=EAIaIQobChMIucL6guHgkAMVDlN_AB1fEC7KEAAYAiAFEgJHO_D_BwE&cid=CAASsAHkaPk89kpjXezx2uqmA4xFQFUSMpy2e2cE25_6EJxNJ5m7JpYkg1GdM4dvJvfUrrPe57iTJmrf0T9aK2fP74nQgGVcugAehkN9yBBSlNsICcvHQ4CSdUqc7vupicFcvJ5uzVfo6I1FGu7uo7mXVSmg4Saan3m99ghf2dN52VRS4n_W_-8CRqbfxfdsMel5Hm3zmZtddOycNShrCVTPjeWAcHF3Dq4JSIOkfg34DDB2sw&cce=2&category=acrcp_v1_32&sig=AOD64_1btfA-xW-JQJdFK15Gg7NeoxOPMA&adurl=&q="
+          },
+          {
+            "title": "Coding for Beginners",
+            "link": "https://brilliant.org/?semlink=coding_beginners"
+          },
+          {
+            "title": "Learn Python",
+            "link": "https://brilliant.org/?semlink=learn_py"
+          }
+        ]
+      },
+      "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAEBgMFBwECAAj/xAA8EAACAQIEAwYEAwYFBQAAAAABAgMEEQAFEiEGMUETIlFhcYEHFDKRUqGxIyRCcuHwFRYzgtElNFNiwf/EABkBAAMBAQEAAAAAAAAAAAAAAAECBAADBf/EACQRAAMAAgIBBQADAQAAAAAAAAABAgMRBDEhEhMiMkFRcYEF/9oADAMBAAIRAxEAPwDQOIj/ANOmsLkrhcoEeWogYE2SVCSTy3/qR98X/EX/AGUw2+nkfXC1SKoqIbSBArC4IFiP5v1xDxfq/wCx7HQ7m+wt+uAc1iMmWVsYUOSDYed8Hubnfx5eOBsxbTSVrAWsrH/7i2p9S1/IkV6WqX4JvC+XVeWSTiZY44C7Mp1XN/QdMSLw3l0jySV801XNIxdmWwAv0xBV5mIYdUjlS2wAFz7YhjzGZ+5Hphjbm77n7dMGMMwNlzVke2EVfw6yOvDNC1ZTynk4k1AH0OM6zKmzPhXNZaGZ7Om6uOUi9CMalk2YuJSkNWJG08mAtibizIIeL8q0aRBmlOCYHbkT1W/UH8sNUJoSaae0ZXFxZmsYss4tj6bibNKtGjersGFthgLL8izKozI0P+GzS1YZlFOQV1Fd23uL2Hgeo9D3MMqfLmIzChzHLzfnPHtfwAIX9ccvbhfh297I/wBCqfiSuimWOskLqAACPDDVBndTUQrJASI7WW7EHCE8EUpRoquOwHKVWU/kCPzw48NTZbHlMaV08CzKxBAnQ7exwtYo7SCs+Tps07iMn5eQLe+3LC/Al3DOq+bX2v6YvOI91UHmWuN+e2KiIhCNJDLcXa2rE/FXw/0S+xwjj7STSDza5sPzxDnVNIuXVz2Z1MLW0IWPL8I3Ptg/KkvSpKx1FxcEi1x/XBVtIuSbjqMeho5GKxUprJngoKpair0ahqidRt0uwAGPo+EuIKhiJWhpYwb6i+r8hjY6iipp7vLGNdv9RBZv64rKvKqgKTSyJKo5Jyb08MbRtmWRxzcLZo0FQxljntpqdJUN5eRw85VmCVKAP9N7gg8vMYr87ovmoHpcxop41YGxdbC/iDhOy+pqMlrjRVEhKDvRSHquN0bs0nIYFzTjjM62ZEkiyykipEOnZpXPaOfUARYcewjG3e0nYoWJUj0O2Fv4bUrRcLRVsw/b5nK9dISN/wBoe59kCD2w04QcX804L4ZzMMavJaTW/OSJOyc/7kscK1T8GuGpZS0NTmlOv/jSZGA92Qn88Nme18E+W/ulYhLkaWhdWvYjbqP78cVlPnVZToUUROCxbv7W8hbpiTNzcOG1Ns7Rx8lraRW8XVAjqqaIkjuE7deQtgHKgcxzCChiIDHeSx3EY5n9B6nE3GNI1XXUwjdwwiYtY2W23PF1wVk0mXU81bWOstVUkAOq8oxyGw6kk/bwweP8kkhLlpeoZgAiBIwECgBfAeWPXM2IPiCMRi5G29vPY4kGrSdB38CcXHE4VIG1rnqBiLtGupZBb03xOx0jny5m2OKAwuRYnpjbAeVZX25jwOFHjjKsoly7svlUjra+VaKleFFDh5NiRtsACWNugw3yFYYmd30qoJLHoMJVHN/mD4h0r2/dsqpnnVD/AAu/7NPcjtD7DAbGQ9wxx08UcMSgRxqERR0AFhiOvjkno5ooXEckkbKj790kbHbEt8ffw+mEGT09md0y0GWQ1WXVVRGuZRTarhSVcaR3Q1vPr12xaQU9DqljqawGaJ9LrCy2TYEA33vYg8hzGKbL8jzKbiqOTMaV1U1BmlcHWlx3rahtvsLeeH16FC7Mp06jcgDrgcv/AJvEi5qfk9ef1DRzeRl9Trx5FXP4dU9OE0mV1sFPUC18DZdlObNV9qr6Ithrd2sLeC4bY6eKQJI0YLAWBI5YLAEYAva5tfl9scePij20zo+Rcr0ojponip1UntXA3YixbEwvotq73S22JF3uCMcUC9gfcHfFRP29nApZhq6dbWxJa3M+56Y+IVATsAB16YzDi34gzVFS1Fw5LaGL/Vq1QPqPgF56P/Yc9reYMM2d1GZZoki5ZSutPGbI837MSt+I3t3R08efhhMyXP5eBc4zFeJsnq0irZEC18AEihUWwUgdLl2537x2wvTVdXWnXWVlTUNfYzTat/w3PdG5F1IJ5AY9vWyyxx0eYxfO0yjUsU2oNELbsp+tPY6dvpwoTaMlzzK89p/mMoroKuMfV2bbp5MvNT5EDHvMpKpGp/lY0YGT9ozsQFFuewPp0Fid8YH/AIErVCVvDWYSwVS7ory9lIPJJlsjehKnyNxe/wAo+JvEWRTmi4mojXLHszFOxqUHiRazfYeuMY1urzGKOSngVj2lSSI7KTuFvz5D3t+gJ1tueFvh3i/h3iZ1OXVifOczTTDs5R/tP1W8RcYY8YwPljxTUkcsE8VRE4ussTBlYeRG2CTY7G4x+W6LMc1yWVqrJq2oopecqxNZW8yvI+4w75N8aMzp0WPOMuhqwOc0Ddm1v5TcE+4wZSlaQO/Jt6jbexGOSyxwRmSVgqDqcZvUfGHJVy/5qATPN9IozCQ5PiWvpA89/fFFwx8SczznNKtcwSBtVmpqdEsIVF797mT9PP8ALlg01K2wzLp6RpGaO+YRsaqQ01AneKX7z/zf8YXKfK8qq5nrKnLqVpCe4TGNSjob+PniOqq6rMpFNR3Iwe7EvIeZ88HQdxQB4Yiy53T1PRfh46lbrsAyjh/L6VqmszFxKgLdmmjswqHkpANiRyBsPc74quIuHuwiaopqYRUFjIEm3WIc7kCxBJ5XJA2J5EFpWQxuGZtI6DxwJW0dVWyNLU5lIkA+mCFFsR11FgQfS2BOWt+Q3ghrSRnz00nzPfil+YMeoxt2Zl0tsCXHc0dbfUb7bcyBVu9OaWrgjr6SE6OzmVjpf8MZF3Xn9SHSPA8gxZhleWIkxo6mngpoAj/KV90p3HV0kZdzYgbHfywsVNTFHUdgZ2+ZVNmqFHaNvYCnc2TT4atvC5xYvK2ee009AFdw5QVrdrlNWscoNxT1jhe9zASbZSfBXCnY7nnjn+aeN8i/cHzWrg7PklXCsjgeTOpJHgbkYOp4ZaoutJS1AkUNamWIie5Nw0guA4ve/W/O1gBd0uTcawU6JTiPs7XCtWSQab9NIJ/va22CDZnVDUVMb/LxI0kbbBQmvb0N8HxcH5jXyl44VpkZr9/kAfAc8P1PDFFtHGq+gtiyhUWxJXJb6RfPElfZinlPw8oorSV80lSfwDuL/wA4bKHJ6KiQJSUsUIH4FAwUGKpt4YhM8i8jjhWSn2yiMcz9UFLEVXy8cTqgTa98LGYZnVRVCIjgKxAO2KziTibMKCMmn7K+k2JU7fnhV8n4Gr4rbNBkpomRSxLN/Cqi5Y+WPScPfOVCz5pIXiQgx0oPcW3j+I+uF/4Q51WZ1lVU+YFJJoZdAl02Yi17H74eK2ZoIS6AE+eLseJT5Z52TO68I+rqCjzGn+XrqWGeEckkQED08MUdVSZDlGV/LZ1Wxz0sZPZCq0XjU7aAQASP1xnXFfHOetnMmWQ1K08I/ihSzH3N8VUa6nMsxaeUi5kmYux9zjulsmNEl44oKem7LIsv/d4xpWRl7KMAeAtc/a2KOTjDMJm1/MlL9Fso+2+ErMq6fddQ0qRYdMV7VMxP1nB0jH//2Q==",
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACbElEQVRYheWXwU4TQRjHf+2WKKYECDeVGqmia+LBZNT0UGMiryBrT74AvoAP4AuokYtnGXgEMTF6UichMSRjUSCCcDAxVCESrO16cLdst7t0dote+Cc9zNdvvv8vO7vfzMBRVybtRFs554Cr3lBpIT/+FwBbOWPAS2A09Nc6cFMLufLPAGzljAPVLmkXtJBLpjWzSQCAN4eUkxzAVs4TYMggdcjLNZLREtjKuQM8My3qqaKFnOkZwFbOLWA+GHPNi01oIV+kBrCVcxuYBfhNk+XGNk1c8lgdEBlghwZZMhStAXL7qzuphZxLDGAr5yEw5ZsPZ08we/EBZ/pPHsTM591NJj/cZ6v5MwjxSAt5zwjAVs4osACM+LFq4zsrl592Nfe1Wf9KYeEu49ZgMPwNuKKFXA8GcyHzU8BauGATN9a8VquxuLhILrdfqp/jDPb1hVNHgDVbOae1kBuRAMDr8CwXyGNFmgNUq1XK5XJH/NL7Cu6vZtSUV0DRH7QWyVZOETgbNSPurQewrHi4GI15Xu0AwLWklXpQyytpKz50BQHepilQr9cj4+5B6xbwagFoIZeBRFspQKlUwnXdjt+XvR9x786q59UO4OlG1Iw0pxY3/hG0fTJtn6EWcsNWToFQI8pn+ljaWWW3uWdk3p89Rj7T0Qf8RrQRDBq1YhdYa2wbmfsqWAPB4o+1kFNRecabUQ9KtxkFICaA5ynNu27HXfuAFnIeqKQwr3QzNwLwIGaA6QTm0yanIUh+Kt6i+7mwpoUcNq2ZtBVfP6ScdADeeb/I30tIWOtAMcmdAHq7mp0HhDd8p4X8lLbW0dYfdZrPRk44Gu0AAAAASUVORK5CYII=",
+      "advertiser_info_token": "QVFkZTkzNG9oQldMaDdJRFNoY3ZxSy1YQkF0dllfTUw5cVlEaWtTZmljdHF6R0RwLTJHNVdaeVBiaHJ0eVZoaFhrdTlHTFVHSnFjYXZlTnBDVFJveHZrNWFXeVFYRnY5ckJlVWFSU3A4VVg1cFpFelJfT3prOXl2N0todXU0bFZxUzlXU01maThTZnlVb3VZRE9GN3RCSWd6NEhMRGZQandQZFlpcTAzQVNkRVluNFBUbGV6XzYwYVZSM1N1Zm5aMjROVW15ckh5Y3lfNDBRSm0tWGFXZlhnb1BUVHMydm0xUmtWeFVaRnlmdzRuNWU0Y2wwMmU4UTBLWnpLbzZjRC1uVExseWozSTRqQ21iUUJyeVhORDE4QVFlLUhZeTF3OTlGYjZjX2tqT0ZHSXFCUVdGRQ=="
+    },
+    {
+      "position": 3,
+      "block_position": "top",
+      "title": "Python and AI for Beginners",
+      "link": "https://www.coursera.org/learn/ai-python-for-beginners/paidmedia",
+      "source": "Coursera",
+      "domain": "www.coursera.org",
+      "displayed_link": "https://www.coursera.org",
+      "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi5wvqC4eCQAxUOU38AHV8QLsoYACICCAEQAhoCb2E&co=1&ase=2&gclid=EAIaIQobChMIucL6guHgkAMVDlN_AB1fEC7KEAAYAyAAEgIHHPD_BwE&cid=CAASsAHkaPk89kpjXezx2uqmA4xFQFUSMpy2e2cE25_6EJxNJ5m7JpYkg1GdM4dvJvfUrrPe57iTJmrf0T9aK2fP74nQgGVcugAehkN9yBBSlNsICcvHQ4CSdUqc7vupicFcvJ5uzVfo6I1FGu7uo7mXVSmg4Saan3m99ghf2dN52VRS4n_W_-8CRqbfxfdsMel5Hm3zmZtddOycNShrCVTPjeWAcHF3Dq4JSIOkfg34DDB2sw&cce=2&category=acrcp_v1_32&sig=AOD64_2jzdBZDxMXc_qFTMIgYFP6qURYcg&q&nis=4&adurl",
+      "snippet": "Enroll For Free \u2014 Build AI-powered Python applications in the new four-hour AI Python for Beginners course. Create...",
+      "snippet_highlighted_words": [
+        "Python",
+        "Python"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAADHUlEQVRIid2WX0hTcRTHv7/tbnPTTZvTcqY2NWwqGvQQFQSRBCbVS5hRESIV9BAp9SL0EGE9GNlLuEAK+vNi9VYwynwoQpIKtLVlms4sxfzTNqdz2/3dXw+jnPfezan4UOfxnMP3c3+/3znnHoLqXqylKdZU/b8AcIkmCkCYgTIIAAAFwBGoCMjqATyDX9BmcOf3pW3N1xr0HGPw+sIfBgLNL73wU6QooIzJIfGqiAEeenB7ytU6c8kmnWxKt8t/zvbj7ZcADMplAgRghr5oslRsS41zvIi1d04daRpBulJ6YzEADAiy0bvWLKNqSfWIuYYDxWf6YBAzYlTRFB20FSWuDsCap+2+WYgZKvLLPfKs0NZgtmRppJF3ff7+4YCSI+Wbk4tytKJosUVnzdW4pvnoz5YABECvrKvKFLm7Ps3svOyGl0JNIhdYWqixXynINqkjCS2Pxhps4zAqRZciAQSF2yc2iHyd77176wexnkPan1JJhuNneGONc7S9xOmeq7j2DfMCTDKFJHlkDx2+X5ybqf7rmAsKyft7ZSsEDPALIIBOEes1Zd4gWh3Aw+eT0MXoWALolxg2i8MC0rPVoowuhx+qpQZCogBALfkgygsrVpcACMa84kLOMydhFQgxAL/4QJhF+w7vMcInpi7YPMM8ixmV6WSNotvhi3aU5etqK9MwK3cKD71xLKP5qAkTPHh5jBRAWp9Oinx3LlqO79JjikeIgTJQhiDDOH+pxlRfnXWhxjz2uLSiMAkeCglFbthN8gMPrAVZSSJ3t8t/zz75zBXQKcmBMt3Jqgxr7qJp0fHee/rW96FIZ8QDULbFpHLZrLJHjm+WOqfbR6PvRa5NlOTzaOhsi3u56pWN/e7Fky4GAIBW0drhPXV9KEFpBlQ29tsdc1CLWzJ2o6co2l77cmqdPV9n46u/6vEpqj/aXQFoZdTi/pMBCICH7i7XNRwy7SgzZKYuzK6RidCbHl/TkwnHYBAG8ZROGBAxniHIEGIggJEDA6Z5EEBNoCFxVgokuhdxBBxBMgCAMgBYJ79DrBQQbcscrP/+bvobk64WR6brOI0AAAAASUVORK5CYII=",
+      "advertiser_info_token": "QVFkZTkzNGxnYkFPVFJhZFFYd1l1eUpfaVV5S1VsanpNWmljcEpVTTBSN1EwRmJlZlNOSnZ2NnhCTVlRYmQ0MWhUdmh3eGhQV2xwX3hwM0lCRm91aERRcFRMb2pfZ3lhSk5PN1FuajR1eXlRb1Y5NTdSb2RRRFdpcXYyc3I5bWNnbjJTcDRPMDhpeWVaSWw1OXNRaks3QjNRRjVJUTk3dkZQRVduMTZhdnpkSHZFNzhjR1dvYldWVVZwZUg2amdvNVpyZkhlVW53TUdMb2RmMmNmaWljazg4aHA4eGFCLUdTeUJKeTJTVHlnS1N1V2NBUGFjSFdNbmNYNzlQQ21ocjVwVkp3NzQ="
+    },
+    {
+      "position": 4,
+      "block_position": "top",
+      "title": "5 Python Programming Examples for Everyday Life - Udemy Blog",
+      "link": "https://blog.udemy.com/python-programming-examples/",
+      "source": "Udemy, Inc.",
+      "domain": "blog.udemy.com",
+      "displayed_link": "https://blog.udemy.com",
+      "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi5wvqC4eCQAxUOU38AHV8QLsoYACICCAEQABoCb2E&co=1&ase=2&gclid=EAIaIQobChMIucL6guHgkAMVDlN_AB1fEC7KEAAYBCAAEgID3_D_BwE&cid=CAASsAHkaPk89kpjXezx2uqmA4xFQFUSMpy2e2cE25_6EJxNJ5m7JpYkg1GdM4dvJvfUrrPe57iTJmrf0T9aK2fP74nQgGVcugAehkN9yBBSlNsICcvHQ4CSdUqc7vupicFcvJ5uzVfo6I1FGu7uo7mXVSmg4Saan3m99ghf2dN52VRS4n_W_-8CRqbfxfdsMel5Hm3zmZtddOycNShrCVTPjeWAcHF3Dq4JSIOkfg34DDB2sw&cce=2&category=acrcp_v1_32&sig=AOD64_0Fhq0CVzqxzR7bPuU-MI6-zIVduA&q&nis=4&adurl",
+      "snippet": "Learn how to use Python in your next project with these 5 Python programming examples for everyday life",
+      "snippet_highlighted_words": [
+        "Python",
+        "Python programming"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAB1klEQVRIie2VvWtaURTAz3nqNY15uijaQJpCeS3kYxAhY8mSODkUur0xf0CGTlk6FKS45C+IZNDFKR3tlo9F8tzMUmvBZzL5skiivg+vp4MgUur1GRMIrWe6nK/fPefcDyQieEqRnjT78wNwm7g9XUunAFS/W/mNVn69VS1a7qPQzZCNH72zT527St8XQQBwbmlpXdo+XIy8884KsO7p/Eu7cdTzv0b0Am8TAHgCSD2w6vRqz/v+c8Av4wMBtz97J2/vFjYk6QX0bbB+0eZXBgCVA9v/BiUG/S6YV/0PVTmsjC1FVKPZIt8qIgPrhiK7nu1iQI5JALD2ceH0oG0UOVtG3yqaLVEPhE1EcHRiL3HnW2BlyzdUyzEpdSxfXzoX+x1HJxB1CIDGi16yy9mOwIGIytlOo2QLHFydolnkmd3kRwZomsYYUxQF8S9zRERFURhjmqYJkohOEefccZxarTbOYWDinAuS/NszmAP+A0AwGByudV0fNdXr9eE6FAqJCOLHcuiWSCRM0xwou91uPB53m0FsTqfTo7tRVVVV1VFNJpOZCUBEyWRyXPWpVGpi+GQAEeVyuT9Sy7JcKBTcxE7x4RiG0Ww2ASAajYbDYZdR8x9tovwGO9MG/TGGmM4AAAAASUVORK5CYII=",
+      "advertiser_info_token": "QVFkZTkzNHFBV1gtbDNZUFpXTEVQcFVNSTBnNHZ0ZXZ4RmVodkgyRndUWDd2ZFlNa1c3Z2FpaGR4SlhsejdXaDZ1NnJMQkxWaEJoVEI5V1ZJdks1MzBhNHNDRTVvSVZEc0NMcUt1WDgzalFpLVVmT1VkTXVyMkFKckZuVmpSNlpvZEFGVGNJM25EaHc4V3lxVERXU2p2LUZJX0I0eW5CTnl3c2c5SGpFNG9RbkI5NFFQd21nUjl2RXNSV1FpRk1Yc0RXR2pZTEo1ZTU2dVhNUm9nUGxKbG1vUlAwYThDaW8tYmJCQURkR1h5YjduSnhlVU1kSWpyYw=="
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "What is Python? Executive Summary",
+      "link": "https://www.python.org/doc/essays/blurb/",
+      "source": "Python.org",
+      "domain": "www.python.org",
+      "displayed_link": "https://www.python.org \u203a doc \u203a essays \u203a blurb",
+      "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with ...",
+      "snippet_highlighted_words": [
+        "Python is an interpreted, object-oriented, high-level programming language"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAh1BMVEVHcEwBVJc3caE2bJdKir3z2mL/6m05daZAfa5Jd5nsyUUqbKFHZ3flw0Towzv+2Uz842rmwTgANYDeuzlFgrL/6nD94WL20ETvxzf50T5Jh7lAfKxAf7E9eqv/5GX/4Fz/6HH/3VNFhbc1cKD/2kowapr/1Dj/10H+/v786a2dt851nL7c5OukoiX2AAAAHHRSTlMAf0dz/ovF/qRkVcoZX2noqUpnMo7r88Ww1sbqk9MnjgAAAR1JREFUKJFl0etygyAQBWCCEIJGozE1TWu9C8b2/Z+vsEscA+ef882RXSBky5nKKJL0TMJINrBhGOr6JwmYMrYCmQhfb8PfstYWhRhlgOvya3vCYBRgPWJPjAHSEwTsDeVpC9h8zfOc41RfjMES7p/jPF8/uq6r4DSwGocBQ2y4Qay5JcAsNk1zMZcW2iwNtW1rr2Yz4eyQg/UlkS9LDi4SrO/7AtGY5EeXCmr9NMWE4qDRscM0rjZNuiQEl0h3BLVJa7PKNxzI/ZrWd4ORHRTwVQNTqrBXlJgdLL79UqlP9yJSUg5WZbFNmmVZsXsZjqddbHTqvSffJmmVynx0p6nn8gwwdZMAFh6SOy6n1DbnW/eB9PDHcSnjotx//wNQ0jN2CWQnkAAAAABJRU5ErkJggg=="
+    },
+    {
+      "position": 2,
+      "title": "What Is Python Used For? A Beginner's Guide",
+      "link": "https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python",
+      "source": "Coursera",
+      "domain": "www.coursera.org",
+      "displayed_link": "https://www.coursera.org \u203a Coursera Articles \u203a Data",
+      "snippet": "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.",
+      "snippet_highlighted_words": [
+        "Python is a computer programming language"
+      ],
+      "date": "May 20, 2025",
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAP1BMVEVHcEwAVdIAVtIAVtIAVtIAVtIAVtIAVtIAVdEAVtIAUNEASNA/dNmpvuzC0vLb5fhojt/////1+P2Eo+VQf9uLmV5qAAAACnRSTlMAO4bF5/9i6xvbmT9WrwAAALtJREFUeAF9k4URgDAMAIG66/6rIk1xyJ/3uTjDwTgRyhgl0zg84YIdCH5TUrEbSl4ishfj02mzoW9W7so6H7yLXUNkyGdsSECOpuVtdYIr6cQ3u9UsWsx4mMOKoxoI6IoLTfaaphbUwfdGmzV+qKbJaSBN5tUFeDJ174YMdMto00rtb5p16HCWo9kTXKJh3wUVZkCSWysaWkkF7PQ9hAxD+B6fg/F9Dt7B4PGV4cvGzwQ/MPw0kaNGfocFwPsV47tVeOIAAAAASUVORK5CYII="
+    },
+    {
+      "position": 3,
+      "title": "Python (programming language)",
+      "link": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "source": "Wikipedia",
+      "domain": "en.wikipedia.org",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Python_(programming...",
+      "snippet": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+      "snippet_highlighted_words": [
+        "Python"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII="
+    },
+    {
+      "position": 4,
+      "title": "Python - Coding: a Practical Guide - Subject Guides",
+      "link": "https://subjectguides.york.ac.uk/coding/python",
+      "source": "University of York",
+      "domain": "subjectguides.york.ac.uk",
+      "displayed_link": "https://subjectguides.york.ac.uk \u203a coding \u203a python",
+      "snippet": "Python is a coding language used for a wide range of things, including working with data, building systems and software, and even creating games.",
+      "snippet_highlighted_words": [
+        "Python is a coding language"
+      ],
+      "date": "Oct 24, 2025"
+    },
+    {
+      "position": 5,
+      "title": "Welcome to Python.org",
+      "link": "https://www.python.org/",
+      "source": "Python.org",
+      "domain": "www.python.org",
+      "displayed_link": "https://www.python.org",
+      "snippet": "Python is a programming language that lets you work quickly and integrate systems more effectively. Learn More",
+      "snippet_highlighted_words": [
+        "Python is a programming language"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Python For Beginners",
+            "link": "https://www.python.org/about/gettingstarted/"
+          },
+          {
+            "title": "Downloads",
+            "link": "https://www.python.org/downloads/"
+          },
+          {
+            "title": "The Python Tutorial",
+            "link": "https://docs.python.org/3/tutorial/index.html"
+          },
+          {
+            "title": "About",
+            "link": "https://www.python.org/about/"
+          }
+        ]
+      },
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAh1BMVEVHcEwBVJc3caE2bJdKir3z2mL/6m05daZAfa5Jd5nsyUUqbKFHZ3flw0Towzv+2Uz842rmwTgANYDeuzlFgrL/6nD94WL20ETvxzf50T5Jh7lAfKxAf7E9eqv/5GX/4Fz/6HH/3VNFhbc1cKD/2kowapr/1Dj/10H+/v786a2dt851nL7c5OukoiX2AAAAHHRSTlMAf0dz/ovF/qRkVcoZX2noqUpnMo7r88Ww1sbqk9MnjgAAAR1JREFUKJFl0etygyAQBWCCEIJGozE1TWu9C8b2/Z+vsEscA+ef882RXSBky5nKKJL0TMJINrBhGOr6JwmYMrYCmQhfb8PfstYWhRhlgOvya3vCYBRgPWJPjAHSEwTsDeVpC9h8zfOc41RfjMES7p/jPF8/uq6r4DSwGocBQ2y4Qay5JcAsNk1zMZcW2iwNtW1rr2Yz4eyQg/UlkS9LDi4SrO/7AtGY5EeXCmr9NMWE4qDRscM0rjZNuiQEl0h3BLVJa7PKNxzI/ZrWd4ORHRTwVQNTqrBXlJgdLL79UqlP9yJSUg5WZbFNmmVZsXsZjqddbHTqvSffJmmVynx0p6nn8gwwdZMAFh6SOy6n1DbnW/eB9PDHcSnjotx//wNQ0jN2CWQnkAAAAABJRU5ErkJggg=="
+    },
+    {
+      "position": 6,
+      "title": "What is Python? - Python Language Explained",
+      "link": "https://aws.amazon.com/what-is/python/",
+      "source": "Amazon Web Services (AWS)",
+      "domain": "aws.amazon.com",
+      "displayed_link": "https://aws.amazon.com \u203a ... \u203a Developer Tools",
+      "snippet": "Python is a programming language that is widely used in web applications, software development, data science, and machine learning (ML).",
+      "snippet_highlighted_words": [
+        "Python is a programming language"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "How is Python used?",
+            "link": "https://aws.amazon.com/what-is/python/#ams#what-isc3#pattern-data"
+          },
+          {
+            "title": "What are Python libraries?",
+            "link": "https://aws.amazon.com/what-is/python/#ams#what-isc6#pattern-data"
+          },
+          {
+            "title": "What are Python frameworks?",
+            "link": "https://aws.amazon.com/what-is/python/#ams#what-isc7#pattern-data"
+          }
+        ]
+      },
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEUjLz4dKjohLT0NHzFQV2FKUlwAFywnM0IaKDgzPUpWXGUVJDbq6+3i4+X29/jLzc99gogAABubnqP///9yd393fIPY2twAAAAAAB8AACK1t7ujpqsADicAFitiaHGGi5GUmJ1pb3cAFCqJjpQ8RlIuOUZDS1errrEGHC/DxslAWrmhAAAA1UlEQVR4Ad2OhWGFMBBAI0iIlhzuTth/wHqLjPBf5FzQ64Hx10++H8H3GPX8IMQEE8JCGnFC0ImQSps3GVuIE5lCpii6EOQFhFAaHVV1ZvPm1rWSGbSqk3UvvQ70cKlkI8QFUGtMZ3QzxRz4uRPmMBvoFrAlVEVlB4jIpW1S8W6l/SLSjfF93xw6IZPDDCFBvi52Sd2zs+1haSB+OxHhzz2Is3KycKRomtp2mthYyTFr0YlbKwCtTJZp0LWbO4YuEBd09WHMYXlDCWPoAaMuCBzF6BX5AC2JD1u/hbEIAAAAAElFTkSuQmCC"
+    },
+    {
+      "position": 7,
+      "title": "Introduction to Python",
+      "link": "https://www.w3schools.com/python/python_intro.asp",
+      "source": "W3Schools",
+      "domain": "www.w3schools.com",
+      "displayed_link": "https://www.w3schools.com \u203a python \u203a python_intro",
+      "snippet": "Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. It is used for: web development (server-side), ...",
+      "snippet_highlighted_words": [
+        "Python is a popular programming language"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX///+63c6gz7um0sCr1cSv18aYzLYmonRjtpTB4NP4/Pvu9/PT6eA3pnyFxKoAkFcAlV8AklpruZoAlV4AmmgAmGTi8evl8+4AiUmLx69Yso612ssupHgLnWxBqYHK5dqH3wIXAAAAq0lEQVR4AdzLgwEDQRRF0bu27f67zJuYDeQMv/gDlu24/OL5QYiI63luBMSup1+CpBlXeVGWhXK+3rKqkazxuCrbtquJm9aoemQYubJVLZJJt3QzTOlScXPOtbJ2Gk1xtiDlxm1UVa0h0Gfn1dYapY9VafTghXLSAauelVeBGXSAw4xavDC5DWPv2sblhXLVgpFWbcCbtLil5iLi3X4aTEhMFjMmxJFYQxIAAFFuC1yESb31AAAAAElFTkSuQmCC"
+    },
+    {
+      "position": 8,
+      "title": "What is Python Used For? 8 Real-Life Python Uses",
+      "link": "https://www.datacamp.com/blog/what-is-python-used-for",
+      "source": "DataCamp",
+      "domain": "www.datacamp.com",
+      "displayed_link": "https://www.datacamp.com \u203a Blog \u203a Python",
+      "snippet": "Python is an open-source, object-oriented, high-level, general-purpose programming language. Since this definition may look overwhelming, let's take a look at ...",
+      "snippet_highlighted_words": [
+        "Python is an open-source, object-oriented, high-level, general-purpose programming language"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "What Is Python?",
+            "link": "https://www.datacamp.com/blog/what-is-python-used-for#:~:text=What%20is%20Python%3F,-Python%20is%20an%20open%2D"
+          },
+          {
+            "title": "Why Learn Python?",
+            "link": "https://www.datacamp.com/blog/what-is-python-used-for#:~:text=Why%20Learn%20Python%3F,-The%20benefits%20of%20knowing%20and"
+          },
+          {
+            "title": "Python Faqs",
+            "link": "https://www.datacamp.com/blog/what-is-python-used-for#:~:text=Python%20FAQs,-Why%20is%20Python%20so%20popular"
+          }
+        ]
+      },
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAe1BMVEUD72ID7mID72ED7mED8GID+GQD9GMD2VwEPzQEjEYElkkFACgFACYFEi0ErlAFJS8DzFgD5V8EmkoEaD0D4F4D6GAEdkAEQjQC/mYERjUD0loFSjYEbz8EkkgDnksFACsEGi0DuFIEbT4EhkUFUjgDv1QELTAFMjEEfEJXltn4AAABLElEQVR4AZ2SBZIDIRBFW4lAXEbjev8TLhl6ikyldD/Og49CJwSKKYrgH0IcNMkskVnUAfemDF9ilNF4Ii5B+kRCm8gIburDbK4C+DOzg/NFGC8jzsowrNzah80qUmRzNBzhVtxu7wvtd4WGDKKU1VgJxDkxisjICYJGKFoXzUggK8Ny1QZ/yJ5sECIsjj60KwdATESJJyhl4UNVqwBiFzN0uixO54s6IrsqBjS4W13DaVGVMFCC/ubDHpqxpkPgN4y309SqRQeTLZFBWe0vKqRFUUJ6kT7RhzoXcy38DR1w4lldS0b3cJrb0xhnNnsUfTzD69Fhot99u+Mp3EcCSANT26bD92SXWlFsJ0v7RPxsDvN3S6PQmkxAMXJ+mfyzKAXitCNMGfZV7j/4H+rCDEjCPpPAAAAAAElFTkSuQmCC"
+    },
+    {
+      "position": 9,
+      "title": "What is Python Programming Language?",
+      "link": "https://www.teradata.com/insights/data-platform/what-is-python-programming-language",
+      "source": "Teradata",
+      "domain": "www.teradata.com",
+      "displayed_link": "https://www.teradata.com \u203a Resources \u203a Data platform",
+      "snippet": "Python is a programming language used for server-side web development, software development, mathematics, and system scripting.",
+      "snippet_highlighted_words": [
+        "Python is a programming language"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Python Examples",
+            "link": "https://www.teradata.com/insights/data-platform/what-is-python-programming-language#:~:text=Python%20examples"
+          },
+          {
+            "title": "Python Loop",
+            "link": "https://www.teradata.com/insights/data-platform/what-is-python-programming-language#:~:text=Python%20loop"
+          },
+          {
+            "title": "Countdown Timer",
+            "link": "https://www.teradata.com/insights/data-platform/what-is-python-programming-language#:~:text=Countdown%20timer,-You%20can%20use%20a%20%60%60"
+          }
+        ]
+      },
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACkElEQVR4AdSXA4xkQRCGR2fb9l1wVjzROc7Ztm3btm3bCs627Vv73+pUZ7eX/bCs5FvMQ32t6h6HkUBHtwcdXVWJ/sR+4jnhQ4RLfIgX8lp/ea/HYTcosZteVI9YSbwlQgloCJX3riLqWxahB4sSc4gfBCzyQ76jqNnkdYkrRAQBm0TId9U1mtwrxxhJzHPCq225Nrl9ibqJjfkVAvHS3hFNB6cdiSsiV+zZ7pKTBfHSOSMwuhowoTbTv7BdiTkip9r6+sR3ArHgRH3yAy9vAIE+QMB/YHMf7gnrAiJXfXWtryKQoEDfAsDHh4iKbYOAtmIoBJaHZKXI7ZBV660pgSPTgaFlgOEVmN55gI6mJd6I3A5ZOkNNCQT8A/58Yv5+ATZ0tzIkoUR/IbCPgCmB2LF9MNDO0pzYJwSemxb48xl4f5e4B3x4AKxqb3VSPhcCPqYF9o4FeuXm1SHoltXqavARAuGmBbYP4i6nazbrQbgFAc2YWxDwST0BHoLnqSjwXL8MuRTzjJeB/eOBtvFsTvy/wPAy1BUiwsmz/NFZRMW7O8C8JsCEWrw59c3PElMaktwEYGEL3sAMFqKqxJvEe8EB7BsHNRDsD/j/ZZa3AgaVAD4/5mt+v4FZXl1PvOVS3MnlFhuDVmBQceDBSSAiArGCC9H4GiwD8D2rO+jmySqRW78dq3Ohf2Heim/uBJ5cAJ5fJa4A8xrzMJ1bxlXy9iHuERLXbsdSQDmQaCREt3byAN2zAT1yMF0y8jUhMawc0DOXrkDNoda7Yh/JiqlHMj1OBeUz7fmAj2SpeihN/WN5KnwxuUrUTT9fzRQJj1yiq4jIPSCxczod2rFlpkIvmQm9e34LS/f8Jkr3PIG4XjEAnDdYUrFfFrgAAAAASUVORK5CYII="
+    }
+  ],
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "Python Full Course for Beginners [2025]",
+      "source": "YouTube",
+      "channel": "Programming with Mosh",
+      "length": "2:02:21",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7AX2rWIamt-gsjh0nOzRf98C4y-ebbpREtsUxf0qFzvGLksgBCYr7OA&s"
+    },
+    {
+      "position": 2,
+      "title": "What is Python? Why Python is So Popular?",
+      "source": "YouTube",
+      "channel": "Programming with Mosh",
+      "length": "4:07",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUT2oCBmJJ3gSektgZg_DnMUM5eYGp2SEgAEf-LO_P8jzAleyFYicJmg&s"
+    },
+    {
+      "position": 3,
+      "title": "Python in 2 Minutes!",
+      "source": "YouTube",
+      "channel": "Programming with Mosh",
+      "length": "1:59",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpL9ZUSW8kR7zYKDH8TehuNH3wvyMpjl4-HL6jbIpgsFOrL2lQZCHZRw&s"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "What is Python programming in simple words",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=What+is+Python+programming+in+simple+words&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAg_EAE"
+    },
+    {
+      "query": "What is python programming for beginners",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=What+is+python+programming+for+beginners&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhOEAE"
+    },
+    {
+      "query": "What is python programming language used for",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=What+is+python+programming+language+used+for&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhNEAE"
+    },
+    {
+      "query": "Features of Python",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=Features+of+Python&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhIEAE"
+    },
+    {
+      "query": "History of Python",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=History+of+Python&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhEEAE"
+    },
+    {
+      "query": "What is Python programming PDF",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=What+is+Python+programming+PDF&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhDEAE"
+    },
+    {
+      "query": "Advantages of Python",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=Advantages+of+Python&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhBEAE"
+    },
+    {
+      "query": "Introduction to Python",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&hl=en&gl=us&q=Introduction+to+Python&sa=X&ved=2ahUKEwiFzu6C4eCQAxW4kmoFHe6IC2UQ1QJ6BAhAEAE"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=what+is+python+programming&oq=what+is+python+programming&gl=us&hl=en&start=10&ie=UTF-8"
+  }
+}

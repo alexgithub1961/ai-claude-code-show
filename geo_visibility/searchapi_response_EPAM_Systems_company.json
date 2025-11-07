@@ -1,0 +1,475 @@
+{
+  "search_metadata": {
+    "id": "search_K0EOpDkpY6h3rEM9Pe3wzYN9",
+    "status": "Success",
+    "created_at": "2025-11-07T19:19:47Z",
+    "request_time_taken": 5.16,
+    "parsing_time_taken": 0.43,
+    "total_time_taken": 5.59,
+    "request_url": "https://www.google.com/search?q=EPAM+Systems+company&oq=EPAM+Systems+company&gl=us&hl=en&ie=UTF-8",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_K0EOpDkpY6h3rEM9Pe3wzYN9.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_K0EOpDkpY6h3rEM9Pe3wzYN9"
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "EPAM Systems company",
+    "device": "desktop",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us"
+  },
+  "search_information": {
+    "query_displayed": "EPAM Systems company",
+    "total_results": 2060000,
+    "time_taken_displayed": 0.3,
+    "detected_location": "Harrisburg-Lancaster-Lebanon-York PA, PA",
+    "has_no_results_for": false
+  },
+  "ads": [
+    {
+      "position": 1,
+      "block_position": "top",
+      "title": "Software Development Company - IT experts & Affordable rates",
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjdo7mG4eCQAxWYR0cBHS1bBCYYACICCAEQBBoCcXU&co=1&ase=2&gclid=EAIaIQobChMI3aO5huHgkAMVmEdHAR0tWwQmEAAYASAEEgL8SvD_BwE&cid=CAASsAHkaPfcZR8ii3woGQy7utHgjfzX2uasJkduXTPsp3PWJ7ZbmEKkDpF6bKJ0qUMX1O7J_p8PGFHJCmuptNnkP4Qcvqo76jImXMAiIk4ZPzyHRTgI-VcVfCcK3wWPmwEYxlcBifKGMfWW71wtriPTPi97-IPo0fWBrj6cXEHwvAfFMZ1BhHIhN2zxX9LIvVNpx6jdIyz3WKAW_fhhlzm5R_gpaXz9nByZl9904jVHfs01dg&cce=2&category=acrcp_v1_32&sig=AOD64_34MH7iyInM_0D57o3ZepMbGYHviA&q=&nis=4&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQh78CegQIQhAB&adurl=",
+      "source": "AgileEngine",
+      "domain": "www.google.com",
+      "displayed_link": "https://www.agileengine.com",
+      "snippet": "Elite tech talents | 2x Higher Cost-Efficiency And Up To 3x Higher ROI Reported By Clients. We offer a wide range of services...",
+      "thumbnail": "data:image/jpeg;base64,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",
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAC5ElEQVRIibXV30tTYRjA8e97dpzObWaWlkEU2SKlgklQF0FlF73kIii96yaibiwQgqB/oG6DsAu9qWsriDZ5o8xCb7oxCFtgrqt+2Cwx3S+3s50ulubZ5tyWPjDYed7nfT/n/XHOEad7fWxkKIf/OHAa6ECIXfqGIK5hL+n4LaDb0mCab9cVVLUBH8J2l7TRskrJq3UBlWvYi5kaJGO2YBrFSp9r/425R/pJx8fJrDqr5ZBx35uKZ6gaxl0kvn/CMLeX2GUQoCJQ1b3YRHxxrqxONscdgMqW1Eh9LZAdAk6g6aG8Fk0Pycipd1DBDJVTTZHJOHPzMu7rBFAO/2XgtaXRTPcu22Vh7pH+1Q6Hcvhv//1709Kg6SEZ6/SXDSrXsBcjeiUn/ZbsUgLcUg6/CZyxVIgqy8O/6pKqhnEXNvslEjMHMaKHSHPEOpCYlrHOowDK4Q/kQQC6c0AunHxXEkj820vIQayie8XFlvxmMS0XTl7Nu4dCQ2VfUXoRDACnqh2KgLmA0POfxeomD7H8ToVnaK97tga2jP79rYw4mUSznG2PFOqQByr3SD+6u1Dt2hH/GZJRubdYiQVUbXYPs9tyT2JpEf0xIKMyb8+KgsxPBtBry8fmQu1Lb5KSQdU4cR29yQPmRDYjDpSE1Wwdk192l4RZQBrblQwmBYDanxnFKHDECo7geA+LpXr/QBlMflqRP1bq0hqbHcGKQEtoNfvQxGTRnsIGqciY/uHVQ2ivDHza0z0oaps8iR37O2oGbuyjpn6S2PQYrp1byKRaSUWgygVAqtl14Wzg85NyMAv4tKd7EESXGZtBTM0My2DSC2EBGuowQSCLJX/flxOLPRAuC7KAzzr3nE9Hw11LSeFsmrJUZVKtaFUfic2cy9nrykDDWf2IWNgEMKPhwPkHv5Y/KarN7jGcyWu+0XDf/0BLIVKPL/Yk67R7AFXUd2X3ZeNCT9bZpH0+fd03OtcHsxtpAfAHgNT53JCcxQ0AAAAASUVORK5CYII=",
+      "advertiser_info_token": "QWFJN1ZBMkx6QUhmSmdCTkpPZkdJY2NkbDJyQ3VBZXpvN3ljSlZkZkdObFRpNHZoSmEyRU9PdkhxUkUwVjdwNEY3ZEZyVy1ISnRCRFZIRmFaemduTGUzQVpWNTdRRHlXaldvWEJBVGRMdGNpYS1ITmJxbnBjbmlFbHVueFJ1MlltWkpIeE9fNlJaUXIySmlzblBkbTc1ellJeFFPZllhaVBmT1EwT0JIWlJBdmtBdHVwUkhybWxNVjdlTGNPcmFaSXpWcV9YMjlzbHF2YVZ2enNESW1BTGJ1QUc1RGM4a2FjYmpyZGY0ZzdieWZNYmVwbHpMVGQyaC1QVzQtRlktdTdFRQ=="
+    },
+    {
+      "position": 2,
+      "block_position": "top",
+      "title": "EPAM Strategy and Consulting",
+      "link": "https://www.epam.com/",
+      "source": "EPAM",
+      "domain": "www.epam.com",
+      "displayed_link": "https://www.epam.com",
+      "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjdo7mG4eCQAxWYR0cBHS1bBCYYACICCAEQCBoCcXU&co=1&ase=2&gclid=EAIaIQobChMI3aO5huHgkAMVmEdHAR0tWwQmEAAYAiAAEgJFkPD_BwE&cid=CAASsAHkaPfcZR8ii3woGQy7utHgjfzX2uasJkduXTPsp3PWJ7ZbmEKkDpF6bKJ0qUMX1O7J_p8PGFHJCmuptNnkP4Qcvqo76jImXMAiIk4ZPzyHRTgI-VcVfCcK3wWPmwEYxlcBifKGMfWW71wtriPTPi97-IPo0fWBrj6cXEHwvAfFMZ1BhHIhN2zxX9LIvVNpx6jdIyz3WKAW_fhhlzm5R_gpaXz9nByZl9904jVHfs01dg&cce=2&category=acrcp_v1_32&sig=AOD64_0Yn8tx4kndP-pimuF9T6iGqsmyMw&q&nis=4&adurl",
+      "snippet": "Services For Digital Business \u2014 We combine best in class software engineering with digital strategy & business consulting. Let's...",
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "About EPAM",
+            "link": "https://www.epam.com/about"
+          },
+          {
+            "title": "Careers",
+            "link": "https://www.epam.com/careers"
+          },
+          {
+            "title": "Contact Us",
+            "link": "https://www.epam.com/about/who-we-are/contact"
+          },
+          {
+            "title": "EPAM Services",
+            "link": "https://www.epam.com/services"
+          },
+          {
+            "title": "Engineer The Future With EPAM",
+            "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjdo7mG4eCQAxWYR0cBHS1bBCYYACICCAEQDRoCcXU&co=1&ase=2&gclid=EAIaIQobChMI3aO5huHgkAMVmEdHAR0tWwQmEAAYAiAFEgJr7PD_BwE&cid=CAASsAHkaPfcZR8ii3woGQy7utHgjfzX2uasJkduXTPsp3PWJ7ZbmEKkDpF6bKJ0qUMX1O7J_p8PGFHJCmuptNnkP4Qcvqo76jImXMAiIk4ZPzyHRTgI-VcVfCcK3wWPmwEYxlcBifKGMfWW71wtriPTPi97-IPo0fWBrj6cXEHwvAfFMZ1BhHIhN2zxX9LIvVNpx6jdIyz3WKAW_fhhlzm5R_gpaXz9nByZl9904jVHfs01dg&cce=2&category=acrcp_v1_32&sig=AOD64_2ZGohx-4fniqp3rYY8A6anIQXMZA&adurl=&q="
+          }
+        ]
+      },
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAChUlEQVRIie1VMUsjQRT+ZjJzu5XKNh4BRQ0hgmkjh/4GCwt/QAoPLOxstUnnNWkU9CpTClaeVjZWNiEKaW7hFGMaXUggMa7rbnbfFROHxEiuOCyEPAZ25u033zfzZt4bJqWBjzT+oexDgaHA5xAQ73qD4AWAlAYRhSERRUCoUlL/iqIIYGHoA0II3m777+eslIZuaqj8qdRsLzCmPuPjX4X4or1jY5bqTE1N6+k9nP3sa2trREREpVIpm83Sqy0tLR0eHqp+Lpc7PT31PI+I6vV6q9Uiot3d3X4NaHYAjUYDwMXFRaFQAEBE2Wz2+flZOff29sIwXFhY3NzcvL6+Pjo6Oj8/V7BUanZ//2exWNQkWoPrsDqOU61WAXDOW61W54iEdF0XgO/7nHPbtm3bbjabRMQYq9XqCmbbvxljURQBqFarjuNo2s4tKpfLlUolnU4rrpWVlaurKwBEEWNMYUzTnJ//dnLyK5/Pe54HgHOmD+MVhXQ6XalUyuWyGnYEPM+zrM5xcc5vb2/Pzs5yuZwQUlO4rntz88dxnK2tLcMYVOQty1Ir0AKxTCYD4OHhAYAQ4vLycmNjY3l5mTEQkQo0EY2Ojm5v//A8T2+r3+7v7wFkMhl18TgAKQWARCLh+77iisfjarNPT+7IyIhhmJZlqbjPzEzPzc2pfreMHvq+n0gkNG0n0aQ0guBlYmICwM7OTqFQIKLj42MAYRg+PjallKur35PJ5MHBwd3dXaPRaLfb3QJBEKj1TU5OoiufepKCMfkmG9fX12u12oBwv8FLaXAuuzl7SoUQvHtOELwIIUzT7CcaoBGL9dQ3NvjR15VnAGaw/UPg/+3zvwdDgaHAJxD4C+33MikKaIJ3AAAAAElFTkSuQmCC",
+      "advertiser_info_token": "QWFJN1ZBMTRFM0xoOWRlS2R6by1rSWQ1cE1LVS1FLWVNYzdjY1VhT2IxSXltTHlmNlcyUEFBQ09lTjRSeWFiOHFYZVZ1aDZVQk9RZUxWaU9hTE9PUXR5WHpUV1hrNVFIcDQ4Wk0xYktjMzFaVkhMclAzTFRxcHFxNi1kXy01R0NKcUxSRGxqc0RncVZXQllCOWRCbDRRdFdTREVzbmZyVWhpejVRaDFyNU5DeW5rdERxRkJMN2llbmlyUzlsMkp3SzJfZ2ZrZVFYOUthV2RleFZhMTRvbzBpQnJ3RjJWUUd5Q2twNTl4MGF5dERnT21jb2RjMkRFTW5ad2ZPQ1E="
+    },
+    {
+      "position": 3,
+      "block_position": "top",
+      "title": "Software Development Company - Custom Software Development",
+      "link": "https://www.saritasa.com/custom-software-development",
+      "source": "Saritasa",
+      "domain": "www.saritasa.com",
+      "displayed_link": "https://www.saritasa.com",
+      "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjdo7mG4eCQAxWYR0cBHS1bBCYYACICCAEQBxoCcXU&co=1&ase=2&gclid=EAIaIQobChMI3aO5huHgkAMVmEdHAR0tWwQmEAAYAyAAEgLYCPD_BwE&cid=CAASsAHkaPfcZR8ii3woGQy7utHgjfzX2uasJkduXTPsp3PWJ7ZbmEKkDpF6bKJ0qUMX1O7J_p8PGFHJCmuptNnkP4Qcvqo76jImXMAiIk4ZPzyHRTgI-VcVfCcK3wWPmwEYxlcBifKGMfWW71wtriPTPi97-IPo0fWBrj6cXEHwvAfFMZ1BhHIhN2zxX9LIvVNpx6jdIyz3WKAW_fhhlzm5R_gpaXz9nByZl9904jVHfs01dg&cce=2&category=acrcp_v1_32&sig=AOD64_14GiOvLbraq6xQVK9qYciSwSNqtg&q&nis=4&adurl",
+      "snippet": "We Offer a Full Range of Custom Software Development Services to Meet Your Business Needs.",
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAdFQTFRFAAAA7FAR6VAS6VAS608S61AS6VAS6VAS6VAS6VAS6VAS6U8S6VAS6lAS6lAS6VAS6VAS6VAS6VAS6VAS6VAS6lAS6VAS6VAS6U8S6U8S6U8S6VAS6lAS6VAS6VAS6lAS6VAS6VAS6lAS6VAS6U8S6U8S6lAS6k8S6U8S6VAS6lAS6U8S6U8S6VAS6VAS6U8S6U8S6U8S6VAS6VAS6U8S6VAS6VAS6VAS6lAS6VAS6VAS6lAS6VAS6U8S6VAS61AR8VUO7FAS6VAS6U8S6VAS61ES6VAS6U8S6VAS6lAS6lAS7FAT6U8S6lAS8VUO6VAS6U8S6U8S6lAS6VAS6VAS6VAS6VAS6U8S6VAS6U8S6VAS6lAS6VAS6U8S6U8S6lAS6VAS6VAS6lAS6VAS6VAS6k8S6VAS6k8S6U8S6k8S6VAS6VAS6lAS6VAS6VAS6VAS6VAS6U8S6VAS6VAS6U8S61AS6lAS6VAS6U8S6VAS61AR6VAS6VAS61AS6U8S6lAR6VAS6VAS6VAS6U8S6U8S6lAS6VAS6lAS6VAS6lAS6VAS6VAS6lAS6lAS6lAS6VAS6VAS6VAS6VAS6lAR6VAS6VAS6VAS6lAS6k8S61AR6VASdHQDqQAAAJt0Uk5TAAYSDwUEPH20z8uydSMiTC7CzrJ7Nyyw6ObliyEjjTFsqik41c0wNc6oGsDSMyq/59++xeC4vNlNXrkKt8FdCgEJbtdoDGLFsQgXAeE1ABvJ5EWiO3ZC45jKxAsv3dkOyKMTta4PqxDEDNgrD8l3mRjiNrbCCgxv2GkLY68IvjPRu8HTyy8xLI4f2ocgJCg6fLM5ICXNejYOBRH9c5gPAAABiUlEQVR4nN1SBVtCUQwdYGI3Q1GxAxEEFRuwUBGxu7u7u7vbX+suj4viT3Df997u2fbuds4ewH8ykVji8YM8JWKRW9rL28dX6ucfIKDAoOCQ0LDwCFc6MkqGKEd6omMAFLGIcfEEZcoEIZ+YhC5LTklNI5eekcmQKovl1dl01GhzdHoWy83T0DvfUKBnvlABUFRMp5LSMqPRZC4XrkmqMAFUVlXTd5YaMFC36lpHrzovK8tr620O2GCXY2MTNCNaW/i4rXSbxsxRW7sGO6ATsaubh3p6EfvUHPUPIIYAjTZo46GhYcSRUY5sY1QOWioAt4JxjoxKVmBHnJjkoRRqMTXN0cws8XMfcu7PkIjzYGhE1C04aS4ymvolThMZzaJliq0UrAKsrW84hdokoba2mVA7uyT1nkPq8P0D5osPWYlVd+SSmi/rOCaa1nly6liW01RnwjDnO7RuvLi8kl/f2OA21pmWKe9c/O8fHkOlTU/PAnpp9ZO+Wt7e4beJxB+/frlPydcn/Cf7BsBCUvCsnn/YAAAAAElFTkSuQmCC",
+      "advertiser_info_token": "QWFJN1ZBMmU4SF9ESU1WYXZMTXU0YVhvcThjbFI2YTVoZ2lySzJiekxSZ3NvSEhRNnJ6VmUtT1BTNW12cDROX3BjWjFtTEF6YjY3ZXoxdVJ5cHZwTHhuc1JIR1Z4OHJQdVdidTNSMGxyWm5PZ0w2UzJrd01TdzZJTFhYYTI2bGgxOUpiQ1J1ZGJyV2FXd3JEN0V0UzczeXlHbkFIeFJyR29laERnajJfT3Y1YUI0Z3RWRmIwTldfdVJJYmZTYmkyTjBGcEJTYzFGZ0FZR1AxbG5oLUNLcER3UXRhYWstTUN1TTVxbXExNXNHYldZRTlTTUF6Ym16ZmNTUEZBTUE="
+    },
+    {
+      "position": 4,
+      "block_position": "bottom",
+      "title": "EPAM Strategy and Consulting",
+      "link": "https://www.epam.com/",
+      "source": "EPAM",
+      "domain": "www.epam.com",
+      "displayed_link": "https://www.epam.com",
+      "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjdo7mG4eCQAxWYR0cBHS1bBCYYACICCAIQABoCcXU&co=1&ase=2&gclid=EAIaIQobChMI3aO5huHgkAMVmEdHAR0tWwQmEAMYASAAEgLBWfD_BwE&cid=CAASsAHkaPfcZR8ii3woGQy7utHgjfzX2uasJkduXTPsp3PWJ7ZbmEKkDpF6bKJ0qUMX1O7J_p8PGFHJCmuptNnkP4Qcvqo76jImXMAiIk4ZPzyHRTgI-VcVfCcK3wWPmwEYxlcBifKGMfWW71wtriPTPi97-IPo0fWBrj6cXEHwvAfFMZ1BhHIhN2zxX9LIvVNpx6jdIyz3WKAW_fhhlzm5R_gpaXz9nByZl9904jVHfs01dg&cce=2&category=acrcp_v1_32&sig=AOD64_0no2-3ORMuHQRk7UrI3ce2NR1xmA&q&nis=4&adurl",
+      "snippet": "Contact Us to Learn More \u2014 Break through the hype with EPAM & deliver holistic enterprise transformation with gen-AI. Decades of experience in innovation, digital transformation and superior business results. Founded In 1993.",
+      "snippet_highlighted_words": [
+        "EPAM"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "About EPAM",
+            "link": "https://www.epam.com/about"
+          },
+          {
+            "title": "Careers",
+            "link": "https://www.epam.com/careers"
+          },
+          {
+            "title": "Contact Us",
+            "link": "https://www.epam.com/about/who-we-are/contact"
+          },
+          {
+            "title": "EPAM Services",
+            "link": "https://www.epam.com/services"
+          },
+          {
+            "title": "Specializing in 10+ Industries",
+            "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjdo7mG4eCQAxWYR0cBHS1bBCYYACICCAIQBhoCcXU&co=1&ase=2&gclid=EAIaIQobChMI3aO5huHgkAMVmEdHAR0tWwQmEAMYASAGEgIpnPD_BwE&cid=CAASsAHkaPfcZR8ii3woGQy7utHgjfzX2uasJkduXTPsp3PWJ7ZbmEKkDpF6bKJ0qUMX1O7J_p8PGFHJCmuptNnkP4Qcvqo76jImXMAiIk4ZPzyHRTgI-VcVfCcK3wWPmwEYxlcBifKGMfWW71wtriPTPi97-IPo0fWBrj6cXEHwvAfFMZ1BhHIhN2zxX9LIvVNpx6jdIyz3WKAW_fhhlzm5R_gpaXz9nByZl9904jVHfs01dg&cce=2&category=acrcp_v1_32&sig=AOD64_3qTuVZIp7uaeY3mO1sVO7tY0vFHA&adurl=&q="
+          },
+          {
+            "title": "EPAM AI/Run\u2122",
+            "link": "https://www.epam.com/services/artificial-intelligence/epam-ai-run-tm"
+          }
+        ]
+      },
+      "favicon": "https://tpc.googlesyndication.com/simgad/8545378455071879026?sqp=-oaymwEKCCAQICABUAFYAQ&rs=AOga4qkuSjthWxVteOTgC3LBEY_cGc3iXg",
+      "advertiser_info_token": "QWFJN1ZBMEpjV2F2aFVSWFhOM2NNNEVuRGdWZGlNa2dKXzIxNUpIbVFlX3BxdkRVa3ZKQnpwYW14enlYdGZlMHlSNU5Ranlkc0QxV2lxcWpuSGVwM3V5LWh4a19mZzRfMnNST0pQRWU3Mk1QanRVNHlzXzhJOWFvTXdodUlBSFJISUNzWXliWTNHRW51bmJSY1NLUmptMHd4N2V4Vzhydm1IMG1XN3oxZlBfQ281YWV3TjZaX0NTNnRXd2lOcXJSNDlxTkFhRVlYRWUzbURIT05uUGFBYW50c0xrQk1zVjJRN2VBLXBQWGI2UjNsSVNkSFJoVnM5cFVZZk1WTU96U0prV3NyaHdw"
+    }
+  ],
+  "knowledge_graph": {
+    "title": "EPAM Systems",
+    "type": "Software company",
+    "description": "EPAM Systems, Inc. is an American company that specializes in software engineering services, digital platform engineering, and digital product design, operating out of Newtown, Pennsylvania. EPAM is a founding member of the MACH Alliance.",
+    "source": {
+      "name": "Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/EPAM_Systems"
+    },
+    "stock": {
+      "ticker": "EPAM",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=NYSE:+EPAM&stick=H4sIAAAAAAAAAONgecRozi3w8sc9YSm9SWtOXmPU4OIKzsgvd80rySypFJLiYoOyBKT4uHj00_UNM5LKCiwzqsx5FrFy-UUGu1opuAY4-gIAy7_fjUkAAAA&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQsRV6BAgZEAI",
+      "exchange": "NYSE"
+    },
+    "headquarters": "Newtown, PA",
+    "headquarters_links": [
+      {
+        "text": "Newtown, PA",
+        "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=Newtown,+Bucks+County,+Pennsylvania&si=AMgyJEveiRpRWbYSNPkEPxCUbItHSvun4xkRgDDPLmrOjDx35JR7hM2TU0eDDh_Yt-47E34OUP3Ak1Bd7GlVxTXDxTuyDmOpd73l_SX914WZaZ3Wi4dxD-4FeWfvTq8ldTb-jRC6dQ6BN6XcnoyCZkL71tEMiscZqyKAu54gV_pg6z561n7YWzI3RbUOleKwp_9AHek7W9rG3_qNhrf6775-DyKvWtJSi5NxG9T5HC44aNLDBCSMS9Y%3D&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQmxN6BAgXEAI"
+      }
+    ],
+    "founder": "Arkadiy Dobkin",
+    "founder_links": [
+      {
+        "text": "Arkadiy Dobkin",
+        "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=Arkadiy+Dobkin&si=AMgyJEtRPX4ld4pdQeltMBlsXK6YnLg9be4xryEBJwXFHLOO-Mtb-s-l0z9AOcPXIXkPx-ykjfBHhIsBrgbbLG4O_fAJiu4Eu6y2U7mwZ5BRCJ6jAP3jyynblZ5D19kUrWMVEdDhmH2o2JzoaTp_atQkV20o5UJ3wdvWwxgWFO3y7ebFj5Ha4NsyHUWMdhEGh-P0HPU5Bn8payT8RMzQ-dePm7RFYNQGrw%3D%3D&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQmxN6BAgpEAI"
+      }
+    ],
+    "subsidiaries": "NEORIS, Empathy Lab, LLC, White Hat Ltd. \u00b7 See more",
+    "subsidiaries_links": [
+      {
+        "text": "NEORIS",
+        "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=NEORIS&si=AMgyJEveiRpRWbYSNPkEPxCUbItHSvun4xkRgDDPLmrOjDx35BEXbc482aaMvDSpDqkl-vwCPAsChDz3ADT1rjgyAux-9y_JDfwxZxvOjFM-8gYoA0KB4tVNslU75oruREwJpom8PPbtv0jE2CEDftIKoXsiwh7r-_n2OihwVxQn3hXH4Bi7NVVDRJ5rAG3uABbMumVCPv5WfZpl-rOK7C8mmm-r1RxWsHroiKI3R_Pr9QBqwTzPYnVuhobj1vtqWHesOSzfTv9WGYVq8VLZhvVBWzjBSEV9Bg%3D%3D&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQmxN6BAgtEAI"
+      },
+      {
+        "text": "Empathy Lab, LLC",
+        "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=Empathy+Lab,+LLC&si=AMgyJEs9DArPE9xmb5yVYVjpG4jqWDEKSIpCRSjmm88XZWnGNQwGHTeUxQFsElJjHAKXxlQ0E0iHD8sIqkzyITQpmarTqTdzbTyvONuqMz3RvBFoUGPmBTkf1Cs0ZsA7q6131ZuFVxKZXRa6h65hgafo_M5yc7JWgQGSBmrDl6SlsQYN6myWGDqh-RY3EGkqU02l-y7OL7TXgTb6RtEdy66RsviVAvXf-oJ6KjTfSN18c9vkXOeFHIBKLWO_bs3tZwhAqyRHN2_9gV0DKAAevxyv5zqerA3VGJ9qB_PYHRlUNfEp-We80Us%3D&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQmxN6BAgtEAM"
+      },
+      {
+        "text": "White Hat Ltd.",
+        "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=White+Hat+Ltd.&si=AMgyJEs9DArPE9xmb5yVYVjpG4jqWDEKSIpCRSjmm88XZWnGNTrkRMtqc6yg29vjYEAcS9ssceAtzvBHeVQGs2WD5aqVHkvYAF5zIcNXInuvK9_g9_OFhrBiyhcZoHn91rYaDSNTj9kJaEUDb_PcFZ9EJU-enw8pHiNEr2bMFRNB2qDK9tf0QKQFMvdT1qJXbUuVs8zLnSfDZBVrpYG9z3vnZ4iS-RkjwV8lzg_fE1k6983j7yHCqLt12KqzvM2SMVLO_jRJsGUSPpdHJdRN17Q3JJXjPDJS4UkbvYrQK0wKjl3vrNPmKCI%3D&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQmxN6BAgtEAQ"
+      },
+      {
+        "text": "See more",
+        "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=epam+systems+subsidiaries&stick=H4sIAAAAAAAAAOPgE-LUz9U3SMnJK0rW0swot9JPzs_JSU0uyczP088vSk_My6xKBHGKrYpLk4ozUzITizJTixexSqYWJOYqFFcWl6TmFisgywEA056O3VQAAAA&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ44YBegQILRAF"
+      }
+    ],
+    "revenue": "4.69 billion USD (2023)",
+    "founded": "1993",
+    "profiles": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/company/epam-systems",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACtklEQVR4AeyVA5AkQRREZ862bTMcZ9u2wzrbtm3bWNvmaW3b3rzKRa+NOWVEDoqvqv//LZPtUpoubC2cLIxKMveyku1UmkYAG2EoyFYESFEgQIos346dX7K7YiFyN8iFB17Sxx4NRxzVdcbYO6aotke5cgB42sFXDGDjF4FM+UbGY+5TK9FXKQBKOKTtjNz68CMAdQ+oVjyAXPicoRtyS8M5GA0PqRGwgm9gxxdMf2SBkNhEZCoxORXbVH9CXllBWHOvCla9sQNPbegRit3qDmhyWL1SYkCKA7kIxvoH1MBrr5KZllJ/IWnK3zskZ/SXEIDB1vm0trAO6K5ndNCYN5DRz9tgWxdhfnc8pQ2madXdSmDb7CeWWPfOHite22LoDWMegiDFj4GJ983hFBLD9IOPcEB0AjZ8+S6daIeaAwJFG/v8ouJh4ROB3uf1sFHpB34GRSMmMRlJKalISE5hLEHJIRCjbptAXlyAmY8tEZ2QjOzaK4qSbHs6AItTdhHwvpU3N0ZB+hYQhcGXDTi//AFSUtNPW5SY3lX3KJc7gKSwuESYeIXByDMM4XFJyC1bv0i0PKbJoCx/ALewWMwSwccApZe9skFwTAKyiXEjPYZyBziq48zUlVK09j4VvLL3Q3ZFxCdh/D0z7lG+AHFJKVj03DrHwhxHqOzimjMeWZQ/QKQ42ZQH5jkW5u896o7IJmYJa0T5A/BqJ+S6Wv7eqebwH+A/QOUBTMwHYFdpAaY9tACrVqyYECPMOr9d1UF6Gx7QcgLb2McxfCOOu2uaB2CLyk/EJ6WPo4PEmtOLqgOsZK2Pa4IDSUvPeWKFXud1pRre94Ie5jy1kvqnC+AWxzTYn2Odnud0MSdjDM0i1ObXOvDVBQjNEFciMJrhKHJwH5FmDgIPfNds4DuniO75P3r6HNY9BwATNI1Cu+uNpgAAAABJRU5ErkJggg=="
+      },
+      {
+        "name": "X (Twitter)",
+        "link": "https://twitter.com/epam_belarus",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAABhUlEQVR4AczOA6xcARCF4X/us23btuLUQR3WZlhbQW3bto2gtm3b2J3GN4tY74uHh3okOi42Nj4AAUDwTvDEhisABCOAEAzYTBh0bN+lc5d0QgAhHPqX4Y4pkd367Zc+xMcXCPDg8TPwxeQH724Uj9N95GJ4pnHxby1xgCmV3v+GsFb7k0Iee7UjaQgmIYe9v9O4+wUKWaATyMPAViwvr1NnOQWDdTV5CHYSaKWLmaGDyvU4mTgQcllracaFr+9uk+yLM8k8fAJff0IUTghRVFu3M1ynkYk4nchiqqU3Ry05RDibMMhjtj6Ht3dJxVk/l1G64cspOusychBsCWm01WNM0jFs0sbEYUtIIuTXNco588OLh09JxE6wweuXEAvfL9PQus3+iU80N34KCaQyUOcxTTuSjEmMRI5rS9JwIZfD1t7ceo34YIpnuQ4nGwP8XXlq/fJZd9jE8KBHC5IwAELJ7dWrZ6fOuNhkgFgAEEIAwA1MQkw0AgDC/wnKycrKSQ2iPAkAVyNzq8rxicIAAAAASUVORK5CYII="
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/Epam.Hungary/",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADFUlEQVR4Ab2XA4ycURSFJ52pbdu27TZOEau2bRtRGaO2g9q2bdva3a8nufXg/cubfLuDO++eh3vmjc9LpOpKQJQSvcRqcUW8E1EG78RVsUb0FqVFwDGs58I1xAJx24qBgyjLZaGoKQJxLZ5bTBfPBHHkmZgh8sS2eDWxV8QIEoB9oobX4o3EFYEXUnYxUnSG5AYphL3+dy5XRRNX8epW3FvhgBUie18oPhwqjIFyo6HIUHstTbeQImqEK57Hlh1cpOhigzebBQt2wdFbcOcFPHkLj9/AzWdw/Ba0nW8rEmI78v5fPJmY7nXmWXrDtC3w+iMRY9AK8HcKOc5M4f9bQE3x1F3c/o9eB9+iAOIs4Jmo9au43/ocImPLWWkc3HsJEA8BxiLh95lrcUvgItDJBg0VMTHw6DXsugzrT8Km09Au9BkwzKzK+sxe+e5l+VPr/9LDhIwdF6HaBMjY0w5o2u5BXRDKMfv4zNu9Hb5MvWDPFYLiwxdoPReSdbS8v3GMu87nve+tt4/dIihuP4diw8yALN8z1ySAt67C5nKQrQ+cuE1QXH0M+QdBoJPlGp5W4L0EEBWpeIYeUHSYzbDyODh3n6C49QxqT7YcOaKwz+izLhExEQTYrGtOgksP4e4La78v3wkKeQL3X5kbCuXByTtQZpSN4RLwNlLbNZgG7z4T6zh7D/IMMNt2bcGVxBCw/pS1omMLrksAaxJDwIxttvwS4GzD3mGMSAOYuRy+YYfvwgP4+JWg+PLNzsnZe5Z3VrSfbxNwXN36SgBlxK3QXWDLmKu/UWIEnLlHUNx4ChXGKqcf5O5vpHd3wJ1fVuwXCyP6gHmBjCi8DxQYBFoxy/XmgouF3+PXsQ2YI5yAJ1BwsBX2flml9t/3Ab+YkYQCZgl/qCvZviQQsF/kDXcvrCGuJqKAa6Km62bcWFxNcAFWvGlwxfArsT8BBRxwzDzsNX2meB4PAc/FLJE3Pj9Oa4pFGvyOBER5EBAl7lifUyvBfiXLVsvkHUifiw9ZB1wX70UM4voT3hcewnUZ0Trl9hVlvBb+AQNcQrB9dXA4AAAAAElFTkSuQmCC"
+      }
+    ],
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAUCAMAAADvNg5hAAAAeFBMVEX///8yMTOEg4UwLzI0MjXx8fGVlZWnpqeRkJFqaWrT09Pf3t9NTE4AsM6hoKG2tbY8Oz12zN8rKi1aWVtFREbAwMBBP0Lj9Pjr6+vT7fQtutSw4Oui2+h9fX6bmpsArMzH6fHw+ft1dHYkIyaH0eJnyN3KysoVEheSjfgzAAABh0lEQVQ4jZ3UbY+CMAwA4LJujjFexgYTPVAPlPv///A6QIOByyX2C3Hpk5W2CPAMESvVJQAFS+peSTrRTCnWADAmctVrkL2qYRvcIJohgY5XgzUoQQ/GorECrPEWvXcD+kG/mWMJUPNUi9h0wIwbm4NxEHMmGsclcN9p7b1Kpl9QHl8uI5jzmIqLHLCI6tGYQo/JfMyRkhTSZYcowGyRpyy7v8FigXZ8QhFgssB7NktyD9iDl55S5RbSldlpciVMkAkx8hWkaKQzWzjLc6gzQOMRuV/D0VF79yBVeyb4tcCKYg3HgavxslMqwBfBNsvaudTL3KsX7MLJTnNgMe3UVMo4hGVpVl3F/a6GtrbzveE5Qf2Trm78A9JN89vB7RoWIAoQ3f+wvN6eq3N7hIE5QWk9rZzS1CpH75hDsjOOx8sBfNPIBhNFxtbAvLHWUGNkZHAaB9oAbYBWTslvkagIU6qS8SKvOAv95ZUsXA6OagHmaFelK3a+K1iN45P4HOKH8OD2/h828QtfHhwQ/zNaIQAAAABJRU5ErkJggg=="
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "EPAM | Software Engineering & Product Development Services",
+      "link": "https://www.epam.com/",
+      "source": "EPAM",
+      "domain": "www.epam.com",
+      "displayed_link": "https://www.epam.com",
+      "snippet": "Our teams of technologists, strategists and designers deliver powerful digital experiences. We specialize in 11 industries across 55+ countries & regions.",
+      "sitelinks": {
+        "expanded": [
+          {
+            "title": "Careers",
+            "link": "https://www.epam.com/careers",
+            "snippet": "Join our Team\u00a0- Hiring Locations\u00a0- Relocate with EPAM\u00a0- ..."
+          },
+          {
+            "title": "About",
+            "link": "https://www.epam.com/about",
+            "snippet": "History\u00a0- Leadership\u00a0- Contact Us\u00a0- Newsroom\u00a0- ..."
+          },
+          {
+            "title": "Contact Us",
+            "link": "https://www.epam.com/about/who-we-are/contact",
+            "snippet": "I consent to EPAM Systems, Inc. (\"EPAM\") processing my ..."
+          },
+          {
+            "title": "Services",
+            "link": "https://www.epam.com/services",
+            "snippet": "Engineering\u00a0- Insights\u00a0- Strategy\u00a0- Client Work\u00a0- Data & Analytics"
+          },
+          {
+            "title": "Hiring Locations",
+            "link": "https://www.epam.com/careers/locations",
+            "snippet": "All Rights Reserved. EPAM and the EPAM logo are registered ..."
+          }
+        ]
+      },
+      "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkICAgKBwkHDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclICU3Nzc3Mzc1NTcyNzI3Lzc1NzU3MjY1NystLzUuLS01LjU1NTg4MjI1NDQ3NzUtLTQsNf/AABEIABwAHAMBEQACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAADBQcGBP/EACQQAAIBBAICAQUAAAAAAAAAAAECAwAEBREGITFRYRITIkFC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAgMEAQAF/8QAHREAAgICAwEAAAAAAAAAAAAAAAECAxETEiFBMf/aAAwDAQACEQMRAD8Aj0cO6aoiHM0OC4bnc/BJPisZLfQwN9DuGRQG1vW2I2dEePYoul9Bi3L4LpsfLbzSQzRtDLAxR0YaKsDogj3unKvIGwEbU+q3UbsOm1t966oIRJ7LMFb45j4ZuD4J5spb4hLDKtcbmcqJCp8D5rmmptJZ6GQknVFt47MvzNYL3lOTureRJ4bicsjodhhodg1bRW+CySXXJ2vDEDWg34p+o1WA7FR1UNaF2sonH8nhHwVpj8q91bti7w3MZhQMJQf5PqjddnJyh6sHV3U61CzKw8ifOXUeRy13eRRfYjupSyJ1+I/Xirqa+EFFktluyxyXorZBuqOIafQjsmPVeLWVWpDmBzqrYEMkg5Y1VExIGzHdMHpH/9k="
+    },
+    {
+      "position": 2,
+      "title": "EPAM Systems",
+      "link": "https://en.wikipedia.org/wiki/EPAM_Systems",
+      "source": "Wikipedia",
+      "domain": "en.wikipedia.org",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a EPAM_Systems",
+      "snippet": "EPAM Systems, Inc. is an American company that specializes in software engineering services, digital platform engineering, and digital product design.",
+      "snippet_highlighted_words": [
+        "EPAM Systems",
+        "Inc",
+        "specializes in software engineering services, digital platform engineering, and digital product design"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII="
+    },
+    {
+      "position": 3,
+      "title": "EPAM Systems",
+      "link": "https://www.linkedin.com/company/epam-systems",
+      "source": "LinkedIn \u00b7 EPAM Systems",
+      "domain": "www.linkedin.com",
+      "displayed_link": "2.6M+ followers",
+      "snippet": "Website: http://www.epam.com. External link for EPAM Systems ; Industry: IT Services and IT Consulting ; Company size: 10,001+ employees.",
+      "snippet_highlighted_words": [
+        "Industry: IT Services and IT Consulting"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAm0lEQVR4AWP4//8/RRhMyLfs3sNQvOk/KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l+0bsd/RkIGQAGc/ej9t/+TDt/7/+vPXzD/6Yfv/+2nHSXWAAT49P33/z9//4HZl559JM2Aqm3XwXyXGcfA/H///pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII="
+    },
+    {
+      "position": 4,
+      "title": "EPAM Systems, Inc. (EPAM) Stock Price, News, Quote & ...",
+      "link": "https://finance.yahoo.com/quote/EPAM/",
+      "source": "Yahoo Finance",
+      "domain": "finance.yahoo.com",
+      "displayed_link": "https://finance.yahoo.com \u203a quote \u203a EPAM",
+      "snippet": "Find the latest EPAM Systems, Inc. (EPAM) stock quote, history, news and other vital information to help you with your stock trading and investing.",
+      "snippet_highlighted_words": [
+        "EPAM Systems, Inc. (EPAM"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA8FBMVEVeAc1dActaAcVYAcFXAb5WAbxUAbhTAbVRALFPAK1NAKlLAKRIAKyKyVFJAKFVN6Oe8wqIxFJIAJ1OALtXK7BGALFiZJKl/wB7pWo6AKmOz01fU6BzkXpoeIStotBUGbSZ6CiQ1EVxh4aEulxWSZXa1un///8zAJhGAJldR6cwALBgXpaT3DhOFKjz8vdpb5Xm5e1PLaBsT7JDAJPIweJeNLB1mHOPf8Lc3Op7ZLkgAJq0rNQaAIsyAIhBAI9AAIw+AIg8AINXO5S8udBIIp19b66Cdqqgl74hAHo5AH2rpMdxXqGAbrOfksNCIoVmTKYUy/OsAAABhklEQVR4AW3RBXYDMQwEUIeZs2EGhbehtmFmvP9tOvI+l+exv0mS4JhMJrPZbLFYrTabzW53OJxOp8vlcjNBlCmSBvz/GMjtEf8f84I8wH+P+bwwv/h2zK6OBYIhr8fvDwtJ0iJR45wWiyeSbGEB4xthqXhac8Ey8WwyBwOqK/OFYime1VxaOV5JVqkGqwtJjkgjXm5qrXhCaxfCHZ30WrherwvDXuKZZq7r7QXjqWSfCAgbCDZ7Jh5rDrH06n9LvpOBg8FAoDZHpNDQRsQZT6YkcTZglHV78zoZGZGB88FgsRBOtj59j0TYUnDZSfqLMKALWB39SnW+XC5XwhiOv6YymHOkAdk8spVcN1eAG5lWa/GNAg2QtFVlAwOy1cK4cDbdzha4EJeuKL1GBB+r0Y62REOiPVFap8Oxe4KdBcxfm3ar+q47vIy6x0t3dB1t06DzWcjXenS7k769VO+6vunSgR4gYJjxSXhN5nRanU7n01kh/3/+rQDkrBCEKIMoA/6qW5LKB+nIZaQqRO4KAAAAAElFTkSuQmCC"
+    },
+    {
+      "position": 5,
+      "title": "EPAM Systems Inc Company Profile - GlobalData",
+      "link": "https://www.globaldata.com/company-profile/epam-systems-inc/",
+      "source": "globaldata.com",
+      "domain": "www.globaldata.com",
+      "displayed_link": "https://www.globaldata.com \u203a All Companies",
+      "snippet": "EPAM Systems Inc (EPAM Systems) is a provider of digital engineering, cloud, and artificial intelligence-enabled transformation services.",
+      "snippet_highlighted_words": [
+        "EPAM Systems Inc"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAkFBMVEX////6+vvLyNN6dYuJhJje3eL+/v7y8fSEf5k1LFdAM16sprn19PaWkadCOWFMRGq6tsb9/f3m5erBvsrs6+/Rztigm6+4scLEwM3a2N9tZIE4Klc5MFtaUnf39/gzJVEzJVNwZoaNhp9nXn8yJFNLP2dfV3ZUTG52bY0xKFGJgZtQRXBWS3NqXX9KOGNGM19m8ndWAAAB90lEQVR4AX2TibajIBBEgzO2ihsYRAkKaDDbZPn/vxuDwbe/dtc6Vd3Xw2YpFPz5G8Lm54riBKfoF0GWFyVBQBFCFOAbK6jIllU1STlvWhEh+CIAFPJdiaVMuqKPSfVJAgAqx9pIXBSdMQYPJHqvACUqlSe6zBtC0nGPrZ3Gir77Tg5jFBxNX1MAmlXkhG0Xh6sCbY/no4gusuPqaQyU8X+zonqlULE/dzGj7WT2L1iQkavGPHNPEOXJeRAU2EmvsEA1k74GLoTWR122FDaUFGbwthCNUl7cKHP7cnzeQTXogiCvqHt7rZ+v2U5PrfNCKTYnBp7+KF0i1KW5LcYQ3qzTuqINlmM2X9u7jaPlneLTLfACqCdzimAWPuyoXu9YKxT1TYir3bOPgg2gqg0UfBD4CD/c1Av4EAH11d7W6RfevknzbBLYYKa1s5m3PjjekF0kbtATKpcOlKsXb3CAzdWlgUONXsGI3F0isIucMSxeeed+1qKoBjs7Q5bezbVekiHcnZOTcA+Otz0xtC0N5srbtkedDG1GATxvxTs8MljxbA9nXY4BU4jSjEsTs3oY3exeEeywltOQp03DT9JeaxUyz9wVDXmPjZEdxtJa2dfwZeEokZ6uGHcdnvpLG9Hv1hYTbZOmJKgikbZugi8iSt3iZX+6NeQ/AQgxgemUZGIAAAAASUVORK5CYII="
+    },
+    {
+      "position": 6,
+      "title": "EPAM Global (@epamsystems)",
+      "link": "https://www.instagram.com/epamsystems/?hl=en",
+      "source": "Instagram \u00b7 epamsystems",
+      "domain": "www.instagram.com",
+      "displayed_link": "23.6K+ followers",
+      "snippet": "Official account of EPAM, a leading digital transformation services and product engineering company. Follow us to learn more about #LifeAtEPAM.",
+      "snippet_highlighted_words": [
+        "Official account of EPAM"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABWVBMVEVyHVFHcEx0Fvp8Fv1yFP1/FfyLCOyfBOmtAeS7AuDHAd3UANjZAs7rD6xyFvzjANTqAMHoA7l2F/yPFfx8GPmfD/zFF/XVWujoZuLyZt3pRt/yGdHyA8j1AKTViPj/9Pr////8g9f9A7r3DZz5vO794Pf+ruj9B6uzFPv7JLv+AJr+BI/+YMP/1vD+AIThG+n9GZn/vd3/YZz+AXP+GoT/r8r+AmT/b5z+HHH+I3f+G2P/ur7+FFD+Klb+fYv/wcr+LUf+LWX+AFn+Nzr+Ohz+RT7+inP+Si7/ztD+TxL/zbv+Wy//9fH+WgL+c1X+ZyX+PUv+Bzv+VXD+cxr/6eL+aQT+eAX+nDj+gwD+gxH+fSL+rYn+jwD+iwL+XhX/3rn/1bH9ZR/+lwP+nwH+xHH8ZC3+qAH+sAD+wAP+x1P+zGb+pl79mQn+uAD9J3T+ygD9O1n8pRL9twuaEkMNAAAAc3RSTlMBAF3G///////////GW9j//9nY/1r///////////7//////8b/////////////////////////////////////////////////////////////////////////////////xf///1v////////Y/9j/2VzGSus+GgAAAeNJREFUeAFFjEWiU0EQRc/tqu74V9wZ4TBiB6wG3wpzVoQ7zHCXeELypHH+KVchJAESaEs0IUv0Zv+7fwLgSAOk9ZFghcnfDw4AAg18cyhWCKNVob9NCZjQLWVrEGhJbJGDoCBpMwCrJTETAKBWgdeRGb4dmJW56PdI/KU1K4X15N+AFsW0+3/WVm7Pa0Pmu4Fh7HcbRIjMIhr3FItUGAH4SNZKjK32YjKpK3Iv0yUY0b8g0Vs0oK+8wbeyMBAQwVeo44R1z7XWq6rqpn5jiTmAeQO3iceg9zkYzKvc71iEmMFbqCJJ4tDcKFrLjX5D/MEdq8GpIUUgd/tgGboTgiUDPDZ44SXNpr0gWRcAgqEmEPJRNVPOxYaOth0oAHdCxWoOzslH+RCvlafYMgFUHvAIHoCjz16io80BrH/j0AAcJ9KWKkhn5sRyGjsDtr/sqyrsWNO1cW9/cDNLZgHLSzVvn+wMq9qbKKwy7TiIaKTW56pzW6Oa+N1OKEQdvvl2RyOE4DEOZurd1cHNeab27tyjOPfhFlucXP04ovF97B6jTOzdJwFLaNAff7N6c8incH1VpiSR67q2VgjzUU7JgbMTiQtFKmgAsCAuczlflmVZn7iGBFc1awB/p4tqUS3LDb8OPwBrSrZIO/KHZwAAAABJRU5ErkJggg=="
+    },
+    {
+      "position": 7,
+      "title": "Working at EPAM Systems (Careers & Employment)",
+      "link": "https://www.glassdoor.com/Overview/Working-at-EPAM-Systems-EI_IE15544.11,23.htm",
+      "source": "Glassdoor",
+      "domain": "www.glassdoor.com",
+      "displayed_link": "https://www.glassdoor.com \u203a Overview \u203a Working-at-E...",
+      "snippet": "EPAM Systems Inc. (EPAM) is a leading digital transformation services and product engineering company. Our teams of technologists, strategists and designers",
+      "snippet_highlighted_words": [
+        "is a leading digital transformation services and product engineering company"
+      ],
+      "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////8/v33/PrU7+XE6Nrh9O3x+vfs+PN+zq4lrXkvsoBqx6O+59Z2y6kOpmwAoWMTq3OJ07ZKuo0AomTM7OC45NK14tFcwZqn3smc2sIbrXYqsX2v4c06tYZUv5U/tohXSID7AAAApElEQVR4Ac3SRQKDQBAAway7Dq7/f2XcPafQRwpYXS0ghF4bJpTxVy6k0sbiF+h8CDE9V2xl9iHSVzMiOYDE10+KstpWMlZWZe1Dza+QO7VLN41WysMd1mGXb9vtfOARAeCA8CuGcMRddxPqus5vsek7pbrO8JulDFU7bpFVw64C3a4dDypE+3zbWjcCTOwpig4C6BI9x17Nkrza7pIy/Pl6/LsNfZYMoaxng94AAAAASUVORK5CYII="
+    }
+  ],
+  "local_map": {
+    "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&tbm=lcl&q=EPAM+Systems+company&rflfq=1&num=10&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQtgN6BAhtEAM"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "EPAM Systems",
+      "ludocid": "11047024278800788157",
+      "type": "Newtown, PA",
+      "phone": "(267) 759-9000",
+      "service_options": [
+        "\"Great company to work for.\""
+      ],
+      "website": "http://www.epam.com/",
+      "extensions": [
+        "Newtown, PA",
+        "(267) 759-9000",
+        "Open",
+        "Closes 6 PM",
+        "\"Great company to work for.\""
+      ]
+    },
+    {
+      "position": 2,
+      "title": "EPAM Systems",
+      "ludocid": "998942274432016261",
+      "type": "Conshohocken, PA",
+      "service_options": [
+        "\"Great company to work for.\""
+      ],
+      "website": "http://www.epam.com/",
+      "extensions": [
+        "Conshohocken, PA",
+        "Open",
+        "Closes 6 PM",
+        "\"Great company to work for.\""
+      ]
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "Is EPAM a good company?",
+      "answer": "EPAM Systems has an employee rating of 4.0 out of 5 stars, based on 9,596 company reviews on Glassdoor which indicates that most employees have a good working experience there.Sep 14, 2025",
+      "answer_highlight": "4.0 out of 5 stars",
+      "date": "Sep 14, 2025",
+      "source": {
+        "title": "EPAM Systems Reviews - Glassdoor",
+        "link": "https://www.glassdoor.co.in/Reviews/EPAM-Systems-Reviews-E15544.htm#:~:text=EPAM%20Systems%20has%20an%20employee,a%20good%20working%20experience%20there.",
+        "source": "Glassdoor",
+        "domain": "www.glassdoor.co.in",
+        "displayed_link": "https://www.glassdoor.co.in \u203a Reviews \u203a EPAM-Systems-...",
+        "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAP1BMVEX////V7+Vnw52h2cL1/PrR7uIAqnEAnFg6tYX8//5yxqOy4c4vsoCN0rYrrnoAnVsAoGGBzK0Ap2tawJfj9e4sm9QvAAAATUlEQVR4AaUPgxHAMLAxXtX+q9bGKW+jKgCljb0FnA/xiKSUJpEDbD5gRKLIYraAkVpynsRvABAlEyPDscKEZpm8QUJp1fWE1FFf8tMId4EC6OzEEdwAAAAASUVORK5CYII="
+      }
+    },
+    {
+      "question": "What kind of company is EPAM?",
+      "answer": "EPAM SystemsCompany typePublicServicesSoftware product development digital platform engineering application development enterprise application platforms application testing application maintenance and support ASM and infrastructure servicesRevenueUS$4.73 billion (2024)Operating incomeUS$545 million (2024)13 more rows",
+      "answer_table": {
+        "headers": [
+          "Company type",
+          "Public"
+        ],
+        "rows": [
+          [
+            "Services",
+            "Software product development digital platform engineering application development enterprise application platforms application testing application maintenance and support ASM and infrastructure services"
+          ],
+          [
+            "Revenue",
+            "US$4.73 billion (2024)"
+          ],
+          [
+            "Operating income",
+            "US$545 million (2024)"
+          ]
+        ]
+      },
+      "source": {
+        "title": "EPAM Systems - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/EPAM_Systems",
+        "source": "Wikipedia",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a EPAM_Systems",
+        "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII="
+      }
+    },
+    {
+      "question": "Is EPAM a Russian company?",
+      "answer": "Our founders, Arkadiy Dobkin and Leo Lozner, met in grade school. More than 20 years later, in 1993, they started EPAM, a global software engineering services company. EPAM's global headquarters are located in Arkadiy's apartment in Princeton, NJ, USA.",
+      "source": {
+        "title": "Evolution & Transformation Since 1993 | EPAM History",
+        "link": "https://www.epam.com/about/who-we-are/history#:~:text=Our%20founders%2C%20Arkadiy%20Dobkin%20and,in%20Princeton%2C%20NJ%2C%20USA.",
+        "source": "EPAM",
+        "domain": "www.epam.com",
+        "displayed_link": "https://www.epam.com \u203a about \u203a who-we-are \u203a history",
+        "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgBAQkBBwgKCgkLDQoPDQwMARsIFRAWFBEiFiAdHxMkKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Kys3Kzc3Nzc3Kzc3NysrNzc3Nys3Nys3Nzc3Nzc3N//AABEIABAAEAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAFBwT/xAAjEAACAgECBgMAAAAAAAAAAAABAgMRBgcTAAQFEhhxIlGB/8QAFAEBAAAAAAAAAAAAAAAAAAAABf/EAB0RAAECBwAAAAAAAAAAAAAAAAEABAIDERIhQWH/2gAMAwEAAhEDEQA/AJ3i2PeWeusWkDM6Bk5lyY8S32IjhaSgtiye2h7419fxrxn1vl0jVncKnLuDJimww3IlkorZojuo+uEcS52PQHVKPU8xmQBOYQquS7JqSIxmmo0ab64Q6rNBqrnz5pFEYkIjAVsj3j8UC2WoWTV/vCkhvceIeN2RjdV//9k="
+      }
+    },
+    {
+      "question": "What is the average salary at EPAM?",
+      "answer": "The average EPAM Systems salary ranges from approximately $96,558 per year for Sales Manager to $136,600 per year for Senior Project Manager.",
+      "answer_highlight": "$96,558 per year for Sales Manager to $136,600 per year for Senior Project Manager",
+      "source": {
+        "title": "EPAM Systems salaries in California: How much does EPAM Systems pay?",
+        "link": "https://www.indeed.com/cmp/Epam-Systems/salaries?location=US%2FCA#:~:text=The%20average%20EPAM%20Systems%20salary,year%20for%20Senior%20Project%20Manager.",
+        "source": "Indeed",
+        "domain": "www.indeed.com",
+        "displayed_link": "https://www.indeed.com \u203a cmp \u203a Epam-Systems \u203a salaries",
+        "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEVHcEz////////////////////////////O2OpBarMsXa66xuB+lseertPd5fKxwN0AE5Dn7vcAPqA+BsiVAAAACHRSTlMAF5Xb/xyozJkl3cYAAABuSURBVHgBZY+FEQQxCAAjexKX/ov9YeB9ozg4wYcIMRzOODFOlS/gTjkXuMxObUDpiM8BtJtWQfAuiIIxZ0MILsKAe86CEB1wA6ujOJSalymivnsuCwnfiuD8t+LQxkxhzV+aFOD6H045dHwv/werHAT8MuYWngAAAABJRU5ErkJggg=="
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "EPAM Systems headquarters",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+Systems+headquarters&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhLEAE"
+    },
+    {
+      "query": "EPAM Systems locations",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+Systems+locations&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhiEAE"
+    },
+    {
+      "query": "EPAM Anywhere",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+Anywhere&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhbEAE"
+    },
+    {
+      "query": "EPAM Glassdoor",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+Glassdoor&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhXEAE"
+    },
+    {
+      "query": "EPAM Systems Employee Count",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+Systems+Employee+Count&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhUEAE"
+    },
+    {
+      "query": "EPAM CEO",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+CEO&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhSEAE"
+    },
+    {
+      "query": "EPAM founder",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+founder&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhREAE"
+    },
+    {
+      "query": "EPAM wiki",
+      "link": "https://www.google.com/search?sca_esv=183c80e420c11d72&gl=us&hl=en&q=EPAM+wiki&sa=X&ved=2ahUKEwjdsrKG4eCQAxWbFFkFHROODCYQ1QJ6BAhPEAE"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=EPAM+Systems+company&oq=EPAM+Systems+company&gl=us&hl=en&start=10&ie=UTF-8"
+  }
+}
