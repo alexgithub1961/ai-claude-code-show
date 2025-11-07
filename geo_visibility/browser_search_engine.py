@@ -14,6 +14,15 @@ from typing import Optional, List, Dict
 import time
 from playwright.async_api import async_playwright, Browser, Page
 
+# Import DNS-over-HTTPS resolver to bypass UDP DNS blocking
+try:
+    from doh_resolver import enable_doh
+    # Enable DoH at module load to fix DNS in restricted environments
+    enable_doh()
+    print("✓ DNS-over-HTTPS enabled (bypasses UDP port 53 blocking)")
+except Exception as e:
+    print(f"⚠️  Could not enable DoH: {e}")
+
 
 class BrowserSearchEngine:
     """
