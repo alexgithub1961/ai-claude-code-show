@@ -5,6 +5,7 @@ from .perplexity_engine import PerplexityEngine
 from .anthropic_engine import ClaudeEngine
 from .searchapi_engine import SearchAPIEngine
 from .simulated_engine import SimulatedAIEngine
+from .rag_engine import RAGSearchEngine, HybridRAGEngine
 from .engine_factory import EngineFactory
 
 __all__ = [
@@ -15,5 +16,7 @@ __all__ = [
     "ClaudeEngine",
     "SearchAPIEngine",
     "SimulatedAIEngine",
+    "RAGSearchEngine",
+    "HybridRAGEngine",
     "EngineFactory",
 ]
