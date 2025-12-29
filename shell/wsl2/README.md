@@ -110,7 +110,22 @@ echo 'your-public-key-here' >> ~/.ssh/authorized_keys
 ### Mosh won't connect
 - Ensure Mosh server is installed: `which mosh-server`
 - Check UDP ports are open (60000-60010)
-- With Tailscale, UDP should work automatically
+- **Known issue**: Mosh over Tailscale on iOS/Blink can fail due to iOS UDP socket restrictions
+- **Workaround**: Use SSH + tmux instead (see below)
+
+### Recommended: SSH + tmux (instead of Mosh)
+
+If mosh doesn't work, use SSH with tmux for session persistence:
+
+```bash
+# Connect and attach to persistent session (run from Blink):
+ssh alex@100.116.109.62 -t 'tmux new-session -A -s main'
+```
+
+This gives you:
+- Session persistence (reconnect to same session after disconnect)
+- All processes keep running
+- Works reliably over Tailscale on iOS
 
 ### WSL2 IP changed
 This is why Tailscale is recommended! If not using Tailscale:
