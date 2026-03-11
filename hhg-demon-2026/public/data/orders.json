@@ -1,0 +1,80 @@
+[
+  {
+    "orderId": "ORD-2026-043",
+    "campaign": "Tech Summit 2026 - Main Event",
+    "client": "GlobalTech Corp",
+    "eventDate": "2026-05-15",
+    "totalValue": 42500,
+    "createdDate": "2026-03-01",
+    "status": "pending_review",
+    "items": [
+      {
+        "catalogItemId": "CAT-2026-1001",
+        "catalogItemName": "Premium Branded T-Shirt - Cotton",
+        "quantity": 2000,
+        "unitPrice": 8.50,
+        "supplierCode": "SUP-TEX-01",
+        "leadTimeDays": 21
+      },
+      {
+        "catalogItemId": "CAT-2026-1004",
+        "catalogItemName": "Branded Water Bottle - Stainless Steel",
+        "quantity": 1500,
+        "unitPrice": 12.00,
+        "supplierCode": "SUP-METAL-08",
+        "leadTimeDays": 35
+      },
+      {
+        "catalogItemId": "CAT-2026-1005",
+        "catalogItemName": "Conference Badge Holder - Premium PVC",
+        "quantity": 2500,
+        "unitPrice": 1.50,
+        "supplierCode": "SUP-EVENT-03",
+        "leadTimeDays": 14
+      },
+      {
+        "catalogItemId": "CAT-2026-1007",
+        "catalogItemName": "Promotional USB Drive - 16GB",
+        "quantity": 1200,
+        "unitPrice": 6.50,
+        "supplierCode": "SUP-TECH-22",
+        "leadTimeDays": 25
+      }
+    ]
+  },
+  {
+    "orderId": "ORD-2026-044",
+    "campaign": "Spring Product Launch",
+    "client": "RetailBrand Inc",
+    "eventDate": "2026-04-20",
+    "totalValue": 18200,
+    "createdDate": "2026-03-05",
+    "status": "approved",
+    "items": [
+      {
+        "catalogItemId": "CAT-2026-1002",
+        "catalogItemName": "Eco Tote Bag - Recycled Canvas",
+        "quantity": 1000,
+        "unitPrice": 4.25,
+        "supplierCode": "SUP-BAG-05",
+        "leadTimeDays": 28
+      },
+      {
+        "catalogItemId": "CAT-2026-1003",
+        "catalogItemName": "Custom Notebook - A5 Hardcover",
+        "quantity": 800,
+        "unitPrice": 3.75,
+        "supplierCode": "SUP-PRINT-12",
+        "leadTimeDays": 18
+      },
+      {
+        "catalogItemId": "CAT-2026-1006",
+        "catalogItemName": "Branded Pen - Metal Finish",
+        "quantity": 1500,
+        "unitPrice": 2.25,
+        "supplierCode": "SUP-OFFICE-15",
+        "leadTimeDays": 21
+      }
+    ]
+  }
+]

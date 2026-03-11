@@ -1,0 +1,41 @@
+{
+  "rfqId": "RFQ-2026-0312-001",
+  "orderId": "ORD-2026-043",
+  "suppliers": ["SUP-METAL-11", "SUP-TECH-18"],
+  "deadline": "2026-03-19",
+  "generatedAt": "2026-03-12T10:30:00Z",
+  "specialRequirements": [
+    "Expedited delivery required for water bottles - target delivery by April 30, 2026",
+    "All items must meet ISO 9001 quality standards",
+    "Custom branding artwork to be provided within 48 hours of PO issuance",
+    "Request delivery confirmation at least 7 days before event date"
+  ],
+  "items": [
+    {
+      "catalogItemId": "CAT-2026-1004",
+      "itemName": "Branded Water Bottle - Stainless Steel",
+      "quantity": 1500,
+      "requiredBy": "2026-04-30",
+      "specifications": [
+        "500ml stainless steel construction",
+        "Laser engraving with GlobalTech Corp logo (artwork to follow)",
+        "Double-wall insulation",
+        "Leak-proof screw cap",
+        "BPA-free certification required"
+      ]
+    },
+    {
+      "catalogItemId": "CAT-2026-1007",
+      "itemName": "Promotional USB Drive - 16GB",
+      "quantity": 1200,
+      "requiredBy": "2026-05-05",
+      "specifications": [
+        "16GB USB 3.0 flash drive",
+        "Custom logo printing on both sides",
+        "Data preload: event schedule PDF and company presentation",
+        "Individual retail packaging",
+        "Minimum 5-year warranty"
+      ]
+    }
+  ]
+}

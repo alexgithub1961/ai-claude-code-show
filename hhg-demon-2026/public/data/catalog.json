@@ -1,0 +1,98 @@
+[
+  {
+    "id": "CAT-2026-1001",
+    "name": "Premium Branded T-Shirt - Cotton",
+    "category": "Apparel",
+    "description": "High-quality cotton t-shirt with custom branding, 180gsm",
+    "unitPrice": 8.50,
+    "currency": "USD",
+    "supplierCode": "SUP-TEX-01",
+    "leadTimeDays": 21,
+    "minOrderQty": 250,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1002",
+    "name": "Eco Tote Bag - Recycled Canvas",
+    "category": "Bags",
+    "description": "Sustainable tote bag made from recycled materials",
+    "unitPrice": 4.25,
+    "currency": "USD",
+    "supplierCode": "SUP-BAG-05",
+    "leadTimeDays": 28,
+    "minOrderQty": 500,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1003",
+    "name": "Custom Notebook - A5 Hardcover",
+    "category": "Stationery",
+    "description": "Premium hardcover notebook with custom cover printing",
+    "unitPrice": 3.75,
+    "currency": "USD",
+    "supplierCode": "SUP-PRINT-12",
+    "leadTimeDays": 18,
+    "minOrderQty": 300,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1004",
+    "name": "Branded Water Bottle - Stainless Steel",
+    "category": "Drinkware",
+    "description": "500ml stainless steel bottle with laser engraving",
+    "unitPrice": 12.00,
+    "currency": "USD",
+    "supplierCode": "SUP-METAL-08",
+    "leadTimeDays": 35,
+    "minOrderQty": 200,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1005",
+    "name": "Conference Badge Holder - Premium PVC",
+    "category": "Event Supplies",
+    "description": "Durable badge holder with lanyard, custom printing",
+    "unitPrice": 1.50,
+    "currency": "USD",
+    "supplierCode": "SUP-EVENT-03",
+    "leadTimeDays": 14,
+    "minOrderQty": 1000,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1006",
+    "name": "Branded Pen - Metal Finish",
+    "category": "Stationery",
+    "description": "Premium metal pen with custom logo engraving",
+    "unitPrice": 2.25,
+    "currency": "USD",
+    "supplierCode": "SUP-OFFICE-15",
+    "leadTimeDays": 21,
+    "minOrderQty": 500,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1007",
+    "name": "Promotional USB Drive - 16GB",
+    "category": "Technology",
+    "description": "Custom branded USB drive with data preload option",
+    "unitPrice": 6.50,
+    "currency": "USD",
+    "supplierCode": "SUP-TECH-22",
+    "leadTimeDays": 25,
+    "minOrderQty": 250,
+    "available": true
+  },
+  {
+    "id": "CAT-2026-1008",
+    "name": "Eco Hoodie - Organic Cotton",
+    "category": "Apparel",
+    "description": "Sustainable hoodie, 320gsm organic cotton",
+    "unitPrice": 24.00,
+    "currency": "USD",
+    "supplierCode": "SUP-TEX-01",
+    "leadTimeDays": 42,
+    "minOrderQty": 150,
+    "available": true
+  }
+]

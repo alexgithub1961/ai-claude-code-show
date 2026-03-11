@@ -1,0 +1,92 @@
+[
+  {
+    "orderId": "ORD-2025-SPRING-042",
+    "seasonYear": 2025,
+    "campaign": "Spring Product Launch 2025",
+    "totalItems": 6,
+    "totalValue": 18750,
+    "completedDate": "2025-02-15",
+    "items": [
+      {
+        "legacyItemId": "OLD-APP-901",
+        "itemName": "Cotton T-Shirt - Legacy SKU",
+        "quantity": 1000,
+        "unitPrice": 7.50,
+        "category": "Apparel"
+      },
+      {
+        "legacyItemId": "OLD-BAG-205",
+        "itemName": "Canvas Tote - 2025 Version",
+        "quantity": 800,
+        "unitPrice": 3.75,
+        "category": "Bags"
+      },
+      {
+        "legacyItemId": "OLD-STAT-512",
+        "itemName": "Hardcover Notebook A5",
+        "quantity": 500,
+        "unitPrice": 3.50,
+        "category": "Stationery"
+      },
+      {
+        "legacyItemId": "OLD-DRINK-308",
+        "itemName": "Stainless Water Bottle 500ml",
+        "quantity": 400,
+        "unitPrice": 11.00,
+        "category": "Drinkware"
+      },
+      {
+        "legacyItemId": "OLD-EVENT-711",
+        "itemName": "Badge Holder PVC",
+        "quantity": 1500,
+        "unitPrice": 1.25,
+        "category": "Event Supplies"
+      },
+      {
+        "legacyItemId": "OLD-STAT-614",
+        "itemName": "Metal Pen Branded",
+        "quantity": 800,
+        "unitPrice": 2.00,
+        "category": "Stationery"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD-2024-FALL-089",
+    "seasonYear": 2024,
+    "campaign": "Fall Trade Show Campaign",
+    "totalItems": 4,
+    "totalValue": 12300,
+    "completedDate": "2024-09-20",
+    "items": [
+      {
+        "legacyItemId": "OLD-TECH-401",
+        "itemName": "USB Drive 16GB",
+        "quantity": 600,
+        "unitPrice": 6.00,
+        "category": "Technology"
+      },
+      {
+        "legacyItemId": "OLD-APP-802",
+        "itemName": "Organic Hoodie",
+        "quantity": 300,
+        "unitPrice": 22.00,
+        "category": "Apparel"
+      },
+      {
+        "legacyItemId": "OLD-BAG-206",
+        "itemName": "Recycled Tote Bag",
+        "quantity": 1000,
+        "unitPrice": 4.00,
+        "category": "Bags"
+      },
+      {
+        "legacyItemId": "OLD-STAT-513",
+        "itemName": "Custom Notebook",
+        "quantity": 400,
+        "unitPrice": 3.50,
+        "category": "Stationery"
+      }
+    ]
+  }
+]

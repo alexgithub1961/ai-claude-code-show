@@ -1,0 +1,140 @@
+{
+  "orderId": "ORD-2026-043",
+  "overallRiskLevel": "high",
+  "risks": [
+    {
+      "type": "overstock",
+      "severity": "high",
+      "title": "Significant Overstock Risk on T-Shirts",
+      "description": "Historical event data shows actual attendee pick-up rates of 65-70% for apparel items. Current order quantity of 2,000 t-shirts for projected 1,200 attendees creates high dead stock exposure.",
+      "impact": "Potential waste of $4,250-5,950 in unsold inventory",
+      "affectedItems": ["CAT-2026-1001"]
+    },
+    {
+      "type": "deadline",
+      "severity": "critical",
+      "title": "Event Deadline Risk - Water Bottles",
+      "description": "Lead time of 35 days for water bottles leaves only 5 days of buffer before event date (May 15). Current supplier (SUP-METAL-08) has 78% on-time delivery rate.",
+      "impact": "22% probability of late delivery impacting event readiness",
+      "affectedItems": ["CAT-2026-1004"]
+    },
+    {
+      "type": "supplier",
+      "severity": "medium",
+      "title": "Better Supplier Alternative Available",
+      "description": "Alternative supplier SUP-TECH-18 offers 15% cost savings on USB drives with equivalent quality score (4.2 vs 4.1) and better on-time delivery (92% vs 85%).",
+      "impact": "Potential savings of $1,170 with improved delivery reliability",
+      "affectedItems": ["CAT-2026-1007"]
+    },
+    {
+      "type": "demand",
+      "severity": "medium",
+      "title": "Badge Holder Over-Ordering Pattern",
+      "description": "Analysis of 8 similar tech events shows average usage of 85% of registered attendees for badge holders. Current quantity assumes 100% pick-up.",
+      "impact": "Expected surplus of 375 units (~$560 waste)",
+      "affectedItems": ["CAT-2026-1005"]
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "reduce-quantity",
+      "title": "Reduce T-Shirt Quantity to Match Historical Pick-Up Rates",
+      "description": "Adjust t-shirt order from 2,000 to 1,400 units based on 70% historical attendee pick-up rate for 1,200 projected attendees.",
+      "expectedImpact": "Reduce dead stock risk by $5,100 while maintaining adequate buffer",
+      "actionItems": [
+        "Revise line item CAT-2026-1001 quantity to 1,400 units",
+        "Document assumption: 70% pick-up rate based on historical events",
+        "Plan for on-demand reorder if pick-up exceeds 75%"
+      ]
+    },
+    {
+      "type": "expedite",
+      "title": "Expedite Water Bottle Production or Switch Supplier",
+      "description": "Either request expedited production from current supplier or switch to SUP-METAL-11 with 18-day lead time and 94% on-time delivery.",
+      "expectedImpact": "Reduce event delivery risk from 22% to <5%",
+      "actionItems": [
+        "Request expedited timeline from SUP-METAL-08",
+        "If expedite not available, switch to SUP-METAL-11",
+        "Add 10% rush fee to budget if staying with current supplier"
+      ]
+    },
+    {
+      "type": "alternative-supplier",
+      "title": "Switch USB Drive Supplier for Cost and Reliability",
+      "description": "Migrate USB drive order from SUP-TECH-22 to SUP-TECH-18 for better pricing and delivery performance.",
+      "expectedImpact": "Save $1,170 (15%) and improve on-time delivery probability by 7%",
+      "actionItems": [
+        "Contact SUP-TECH-18 for quote confirmation",
+        "Update purchase order to reference new supplier",
+        "Verify quality certification equivalence"
+      ]
+    },
+    {
+      "type": "reduce-quantity",
+      "title": "Adjust Badge Holder Quantity to Realistic Usage",
+      "description": "Reduce badge holder order to 2,125 (85% of 2,500 registered) to align with historical usage patterns.",
+      "expectedImpact": "Reduce overstock waste by $560 with minimal service risk",
+      "actionItems": [
+        "Revise CAT-2026-1005 quantity from 2,500 to 2,125",
+        "Arrange for emergency reprint capability if needed",
+        "Monitor registration trends 2 weeks before event"
+      ]
+    }
+  ],
+  "supplierAnalysis": [
+    {
+      "supplierCode": "SUP-TEX-01",
+      "supplierName": "Premium Textiles LLC",
+      "onTimeRate": 88,
+      "qualityScore": 4.3,
+      "priceCompetitiveness": 3.8,
+      "overallScore": 4.1,
+      "recommendedForItems": ["CAT-2026-1001"]
+    },
+    {
+      "supplierCode": "SUP-METAL-08",
+      "supplierName": "MetalCraft Industries",
+      "onTimeRate": 78,
+      "qualityScore": 4.0,
+      "priceCompetitiveness": 3.5,
+      "overallScore": 3.7,
+      "recommendedForItems": []
+    },
+    {
+      "supplierCode": "SUP-METAL-11",
+      "supplierName": "Reliable Drinkware Co",
+      "onTimeRate": 94,
+      "qualityScore": 4.2,
+      "priceCompetitiveness": 3.9,
+      "overallScore": 4.3,
+      "recommendedForItems": ["CAT-2026-1004"]
+    },
+    {
+      "supplierCode": "SUP-TECH-22",
+      "supplierName": "TechPromo Direct",
+      "onTimeRate": 85,
+      "qualityScore": 4.1,
+      "priceCompetitiveness": 3.2,
+      "overallScore": 3.9,
+      "recommendedForItems": []
+    },
+    {
+      "supplierCode": "SUP-TECH-18",
+      "supplierName": "GlobalTech Supplies",
+      "onTimeRate": 92,
+      "qualityScore": 4.2,
+      "priceCompetitiveness": 4.5,
+      "overallScore": 4.4,
+      "recommendedForItems": ["CAT-2026-1007"]
+    },
+    {
+      "supplierCode": "SUP-EVENT-03",
+      "supplierName": "EventReady Solutions",
+      "onTimeRate": 91,
+      "qualityScore": 3.9,
+      "priceCompetitiveness": 4.1,
+      "overallScore": 4.0,
+      "recommendedForItems": ["CAT-2026-1005"]
+    }
+  ]
+}
